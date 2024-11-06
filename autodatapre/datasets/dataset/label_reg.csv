@@ -1,0 +1,1001 @@
+Id,DatasetName,Target,Pipeline,EvaluationMetric,Time,Size,Website
+1,possum_belly,belly,"DROP,OE,ZS,nor_null,dup_null,out_null,OLS",20.323909652535676,0.02300238609313965,"(104, 14)",https
+2,possum_belly,belly,"DROP,OE,ZS,nor_null,dup_null,out_null,RF_REG",38.2666,0.12301158905029297,"(104, 14)",https
+3,possum_belly,belly,"DROP,OE,ZS,nor_null,dup_null,out_null,LASSO",88.36955073221598,0.03099656105041504,"(104, 14)",https
+4,possum_belly,belly,"imp_null,OE,DS,nor_null,dup_null,out_null,OLS",23.70944310633754,0.01892375946044922,"(104, 14)",https
+5,possum_belly,belly,"imp_null,OE,DS,nor_null,dup_null,out_null,RF_REG",9.847909523809523,0.11007261276245117,"(104, 14)",https
+6,possum_belly,belly,"imp_null,OE,DS,nor_null,dup_null,out_null,LASSO",20.511048131893318,0.027979373931884766,"(104, 14)",https
+7,possum_belly,belly,"imp_null,BE,DS,nor_null,dup_null,out_null,OLS",18.56518276326298,0.0449831485748291,"(104, 14)",https
+8,possum_belly,belly,"imp_null,BE,DS,nor_null,dup_null,out_null,RF_REG",19.301257142857146,0.14233994483947754,"(104, 14)",https
+9,possum_belly,belly,"imp_null,BE,DS,nor_null,dup_null,out_null,LASSO",9.936429431817563,0.04604315757751465,"(104, 14)",https
+10,possum_belly,belly,"imp_null,enc_null,ZS,nor_null,dup_null,out_null,OLS",17.56008961934732,0.022002458572387695,"(104, 14)",https
+11,possum_totlngth,totlngth,"MEDIAN,ZS,enc_nell,nor_null,dup_null,out_null,OLS",21.294761982834377,0.023021459579467773,"(104, 14)",https
+12,possum_totlngth,totlngth,"MEDIAN,ZS,enc_nell,nor_null,dup_null,out_null,RF_REG",15.23524285714286,0.12000465393066406,"(104, 14)",https
+13,possum_totlngth,totlngth,"MEDIAN,ZS,enc_nell,nor_null,dup_null,out_null,LASSO",180.8985874741063,0.0319972038269043,"(104, 14)",https
+14,possum_totlngth,totlngth,"DROP,IQR,ZS,nor_null,dup_null,out_null,OLS",20.91771583110841,0.02300119400024414,"(104, 14)",https
+15,possum_totlngth,totlngth,"DROP,IQR,ZS,nor_null,dup_null,out_null,RF_REG",39.952633333333345,0.13092422485351562,"(104, 14)",https
+16,possum_totlngth,totlngth,"MEDIAN,nor_null,enc_nell,nor_null,dup_null,out_null,OLS",23.473686638214144,0.014015913009643555,"(104, 14)",https
+17,possum_totlngth,totlngth,"MEDIAN,nor_null,enc_nell,nor_null,dup_null,out_null,RF_REG",13.068599999999998,0.1250450611114502,"(104, 14)",https
+18,possum_totlngth,totlngth,"MEDIAN,nor_null,enc_nell,nor_null,dup_null,out_null,LASSO",24.440296821210485,0.1213538646697998,"(104, 14)",https
+19,possum_totlngth,totlngth,"MEAN,enc_null,ZS,nor_null,dup_null,out_null,OLS",20.8693831474289,0.021999835968017578,"(104, 14)",https
+20,possum_totlngth,totlngth,"DROP,OE,ZS,nor_null,dup_null,out_null,OLS",23.073085596356677,0.02307748794555664,"(104, 14)",https
+21,possum_footlgth,footlgth,"MEAN,OE,IQR,ZS,dup_null,out_null,RF_REG",152.4356705882353,0.175004243850708,"(104, 14)",https
+22,possum_footlgth,footlgth,"MEAN,OE,IQR,ZS,dup_null,out_null,OLS",124.8094559640435,0.036022186279296875,"(104, 14)",https
+23,possum_footlgth,footlgth,"MEAN,OE,IQR,ZS,dup_null,out_null,LASSO",1007.4504933909951,0.045983076095581055,"(104, 14)",https
+24,possum_footlgth,footlgth,"MEAN,IQR,ZS,nor_null,dup_null,out_null,OLS",296.62229626641835,0.028907060623168945,"(104, 14)",https
+25,possum_footlgth,footlgth,"MEAN,IQR,ZS,nor_null,dup_null,out_null,RF_REG",234.9574105263158,0.0930018424987793,"(104, 14)",https
+26,possum_footlgth,footlgth,"MEAN,IQR,ZS,nor_null,dup_null,out_null,LASSO",1308.1943004805287,0.03791975975036621,"(104, 14)",https
+27,possum_footlgth,footlgth,"DROP,IQR,ZS,nor_null,dup_null,out_null,OLS",234.3252459532942,0.02497100830078125,"(104, 14)",https
+28,possum_footlgth,footlgth,"DROP,IQR,ZS,nor_null,dup_null,out_null,RF_REG",254.0960647058823,0.12599921226501465,"(104, 14)",https
+29,possum_footlgth,footlgth,"DROP,IQR,ZS,nor_null,dup_null,out_null,LASSO",1931.3934619523457,0.03401923179626465,"(104, 14)",https
+30,possum_footlgth,footlgth,"DROP,IQR,ZS,nor_null,dup_null,out_null,OLS",348.60142547682506,0.02292037010192871,"(104, 14)",https
+31,Social_Network_Ads,Purchased,"ZS,enc_null,imp_null,nor_null,dup_null,out_null,OLS",0.11846513314599157,0.017015933990478516,"(400, 5)",https
+32,Social_Network_Ads,Purchased,"ED,MM,imp_null,nor_null,dup_null,out_null,OLS",0.12374124980282372,0.015994787216186523,"(400, 5)",https
+33,Social_Network_Ads,Purchased,"ED,MM,imp_null,nor_null,dup_null,out_null,RF_REG",0.093445,0.1070091724395752,"(400, 5)",https
+34,Social_Network_Ads,Purchased,"ED,MM,imp_null,nor_null,dup_null,out_null,LASSO",0.13680074534757056,0.019997358322143555,"(400, 5)",https
+35,Social_Network_Ads,Purchased,"ED,ZSB,imp_null,nor_null,dup_null,out_null,OLS",0.0974712124401783,0.014001607894897461,"(400, 5)",https
+36,Social_Network_Ads,Purchased,"ED,ZSB,imp_null,nor_null,dup_null,out_null,RF_REG",0.09527,0.10792946815490723,"(400, 5)",https
+37,Social_Network_Ads,Purchased,"ED,ZSB,imp_null,nor_null,dup_null,out_null,LASSO",0.09738472304155237,0.02400040626525879,"(400, 5)",https
+38,Social_Network_Ads,Purchased,"imp_null,ZSB,ZS,nor_null,dup_null,out_null,OLS",0.1300385998862619,0.015999317169189453,"(400, 5)",https
+39,Social_Network_Ads,Purchased,"OE,ZSB,nor_null,nor_null,dup_null,out_null,RF_REG",0.0916225,0.15392303466796875,"(400, 5)",https
+40,Social_Network_Ads,Purchased,"OE,ZSB,nor_null,nor_null,dup_null,out_null,LASSO",0.14292923538147956,0.026000261306762695,"(400, 5)",https
+41,Concrete_Data_Yeh,csMPa,"imp_null,ZSB,nor_null,nor_null,dup_null,out_null,RF_REG",3882.917839155201,0.22599339485168457,"(1030, 9)",https
+42,Concrete_Data_Yeh,csMPa,"ZS,enc_null,nor_null,nor_null,dup_null,out_null,RF_REG",8102.28621777046,0.6710546016693115,"(1030, 9)",https
+43,Concrete_Data_Yeh,csMPa,"IQR,ZS,nor_null,nor_null,dup_null,out_null,RF_REG",6923.921170113789,0.30206775665283203,"(1030, 9)",https
+44,Concrete_Data_Yeh,csMPa,"ED,IQR,ZS,nor_null,dup_null,out_null,RF_REG",6099.503213966481,0.349942684173584,"(1030, 9)",https
+45,Concrete_Data_Yeh,csMPa,"ED,IQR,imp_null,nor_null,dup_null,out_null,RF_REG",6426.272687567566,0.29399609565734863,"(1030, 9)",https
+46,Concrete_Data_Yeh,csMPa,"LOF,enc_null,imp_null,nor_null,dup_null,out_null,RF_REG",4598.303794224803,0.29900097846984863,"(1030, 9)",https
+47,Concrete_Data_Yeh,csMPa,"ZSB,enc_null,imp_null,nor_null,dup_null,out_null,RF_REG",3623.5158106475124,0.31299877166748047,"(1030, 9)",https
+48,Concrete_Data_Yeh,csMPa,"ED,ZS,imp_null,nor_null,dup_null,out_null,RF_REG",6310.414337254903,0.31000423431396484,"(1030, 9)",https
+49,Concrete_Data_Yeh,csMPa,"ED,LC,imp_null,nor_null,dup_null,out_null,RF_REG",7318.320416464699,0.23700475692749023,"(1030, 9)",https
+50,Concrete_Data_Yeh,csMPa,"ED,enc_null,imp_null,nor_null,dup_null,out_null,RF_REG",5622.1337395121955,0.3269984722137451,"(1030, 9)",https
+51,insurance,charges,"OE,ED,imp_null,nor_null,dup_null,out_null,OLS",37275.788710241126,0.009999275207519531,"(1338, 7)",https
+52,insurance,charges,"OE,ED,imp_null,nor_null,dup_null,out_null,RF_REG",34393.916940298506,0.201979398727417,"(1338, 7)",https
+53,insurance,charges,"OE,ED,imp_null,nor_null,dup_null,out_null,LASSO",39117.31279277197,0.022016286849975586,"(1338, 7)",https
+54,insurance,charges,"OE,ZS,imp_null,nor_null,dup_null,out_null,OLS",32978.41843147783,0.020999431610107422,"(1338, 7)",https
+55,insurance,charges,"OE,ZS,imp_null,nor_null,dup_null,out_null,RF_REG",28992.140329235073,0.2760004997253418,"(1338, 7)",https
+56,insurance,charges,"enc_null,IQR,DS,nor_null,dup_null,out_null,LASSO",95845.09836138734,0.0360255241394043,"(1338, 7)",https
+57,insurance,charges,"OE,LOF,ZS,nor_null,dup_null,out_null,OLS",30660.200930894247,0.03208112716674805,"(1338, 7)",https
+58,insurance,charges,"OE,LOF,ZS,nor_null,dup_null,out_null,RF_REG",20954.47495923802,0.28290390968322754,"(1338, 7)",https
+59,insurance,charges,"enc_null,IQR,MM,nor_null,dup_null,out_null,OLS",98807.40347558109,0.02299976348876953,"(1338, 7)",https
+60,insurance,charges,"enc_null,IQR,DS,nor_null,dup_null,out_null,OLS",92090.9481856569,0.024083375930786133,"(1338, 7)",https
+61,insurance_bmi,bmi,"enc_null,LOF,ZS,nor_null,dup_null,out_null,OLS",18672.4118284128,0.02194809913635254,"(1338, 7)",https
+62,insurance_bmi,bmi,"OE,ED,MM,nor_null,dup_null,out_null,LASSO",22076.334639757122,0.03300285339355469,"(1338, 7)",https
+63,insurance_bmi,bmi,"OE,LOF,ZS,nor_null,dup_null,out_null,OLS",17080.133436935765,0.030001163482666016,"(1338, 7)",https
+64,insurance_bmi,bmi,"OE,LOF,ZS,nor_null,dup_null,out_null,RF_REG",17027.10235852535,0.2980082035064697,"(1338, 7)",https
+65,insurance_bmi,bmi,"OE,imp_null,ZS,nor_null,dup_null,out_null,OLS",15501.354790250823,0.020002365112304688,"(1338, 7)",https
+66,insurance_bmi,bmi,"OE,imp_null,ZS,nor_null,dup_null,out_null,RF_REG",18591.520718283584,0.43000030517578125,"(1338, 7)",https
+67,insurance_bmi,bmi,"OE,ED,ZS,nor_null,dup_null,out_null,OLS",19482.712894531094,0.029000282287597656,"(1338, 7)",https
+68,insurance_bmi,bmi,"OE,ED,ZS,nor_null,dup_null,out_null,RF_REG",20749.19848544776,0.4969956874847412,"(1338, 7)",https
+69,insurance_bmi,bmi,"OE,ED,MM,nor_null,dup_null,out_null,OLS",17666.792907198716,0.02199554443359375,"(1338, 7)",https
+70,insurance_bmi,bmi,"OE,ED,MM,nor_null,dup_null,out_null,RF_REG",20001.325033208956,0.3040773868560791,"(1338, 7)",https
+71,CarPrice_Assignment,price,"OE,enc_null,fea_null,nor_null,dup_null,out_null,RF_REG",239.65268292682933,0.15099811553955078,"(205, 26)",https
+72,CarPrice_Assignment,price,"OE,ZS,fea_null,nor_null,dup_null,out_null,OLS",541.3912370186747,0.04793381690979004,"(205, 26)",https
+73,CarPrice_Assignment,price,"OE,MM,fea_null,nor_null,dup_null,out_null,RF_REG",341.6788658536586,0.16609525680541992,"(205, 26)",https
+74,CarPrice_Assignment,price,"OE,MM,fea_null,nor_null,dup_null,out_null,LASSO",637.2125519634168,0.07886910438537598,"(205, 26)",https
+75,CarPrice_Assignment,price,"OE,MR,MM,nor_null,dup_null,out_null,OLS",423.63477669352824,0.03199267387390137,"(205, 26)",https
+76,CarPrice_Assignment,price,"OE,MR,MM,nor_null,dup_null,out_null,RF_REG",215.21894146341464,0.20993590354919434,"(205, 26)",https
+77,CarPrice_Assignment,price,"OE,MR,MM,nor_null,dup_null,out_null,LASSO",337.5935734252642,0.10299396514892578,"(205, 26)",https
+78,CarPrice_Assignment,price,"IQR,OE,nor_null,nor_null,dup_null,out_null,OLS",818.7141716335146,0.030995607376098633,"(205, 26)",https
+79,CarPrice_Assignment,price,"IQR,OE,nor_null,nor_null,dup_null,out_null,RF_REG",319.98658181818183,0.1490039825439453,"(205, 26)",https
+80,CarPrice_Assignment,price,"IQR,OE,nor_null,nor_null,dup_null,out_null,LASSO",696.5978510229015,0.13999581336975098,"(205, 26)",https
+81,boston,MEDV,"IQR,ED,MR,nor_null,dup_null,out_null,LASSO",334.65184613584034,0.10800504684448242,"(506, 14)",https
+82,boston,MEDV,"DS,fea_null,enc_null,nor_null,dup_null,out_null,RF_REG",490.3013470588235,0.25992417335510254,"(506, 14)",https
+83,boston,MEDV,"MM,fea_null,enc_null,nor_null,dup_null,out_null,LASSO",1054.3169120620244,0.03500103950500488,"(506, 14)",https
+84,boston,MEDV,"ZSB,MM,enc_null,nor_null,dup_null,out_null,LASSO",1112.3626817444272,0.06596136093139648,"(506, 14)",https
+85,boston,MEDV,"LOF,MM,enc_null,nor_null,dup_null,out_null,OLS",555.8042320667889,0.03292703628540039,"(506, 14)",https
+86,boston,MEDV,"LOF,MM,enc_null,nor_null,dup_null,out_null,RF_REG",587.1820057692308,0.48701930046081543,"(506, 14)",https
+87,boston,MEDV,"IQR,ED,enc_null,nor_null,dup_null,out_null,OLS",384.46443255354455,0.0679941177368164,"(506, 14)",https
+88,boston,MEDV,"IQR,ED,enc_null,nor_null,dup_null,out_null,RF_REG",559.7746113207547,0.3840515613555908,"(506, 14)",https
+89,boston,MEDV,"IQR,ED,MR,nor_null,dup_null,out_null,OLS",449.836297240889,0.03299832344055176,"(506, 14)",https
+90,boston,MEDV,"IQR,ED,MR,nor_null,dup_null,out_null,RF_REG",301.9374169491525,0.21799802780151367,"(506, 14)",https
+91,framingham,TenYearCHD,"MEDIAN,ZS,fea_null,nor_null,dup_null,out_null,OLS",0.12277044724364897,0.04998493194580078,"(4238, 16)",https
+92,framingham,TenYearCHD,"MEDIAN,ZS,fea_null,nor_null,dup_null,out_null,RF_REG",0.12804422169811322,1.3850057125091553,"(4238, 16)",https
+93,framingham,TenYearCHD,"MEDIAN,ZS,fea_null,nor_null,dup_null,out_null,LASSO",0.14822921417120785,0.0769960880279541,"(4238, 16)",https
+94,framingham,TenYearCHD,"MF,nor_null,fea_null,nor_null,dup_null,out_null,OLS",0.10905055558002952,0.029916763305664062,"(4238, 16)",https
+95,framingham,TenYearCHD,"MF,nor_null,fea_null,nor_null,dup_null,out_null,RF_REG",0.11638832547169811,1.2400598526000977,"(4238, 16)",https
+96,framingham,TenYearCHD,"MF,nor_null,fea_null,nor_null,dup_null,out_null,LASSO",0.10949667266527773,0.10594630241394043,"(4238, 16)",https
+97,framingham,TenYearCHD,"LOF,MF,ZS,nor_null,dup_null,out_null,OLS",0.09461012243007359,0.12999415397644043,"(4238, 16)",https
+98,framingham,TenYearCHD,"LOF,MF,ZS,nor_null,dup_null,out_null,RF_REG",0.10281812949640286,1.5316040515899658,"(4238, 16)",https
+99,framingham,TenYearCHD,"LOF,MF,ZS,nor_null,dup_null,out_null,LASSO",0.10849869694971535,0.1539323329925537,"(4238, 16)",https
+100,framingham,TenYearCHD,"LOF,MF,nor_null,nor_null,dup_null,out_null,OLS",0.1222129864258457,0.10001778602600098,"(4238, 16)",https
+101,framingham_heartRate,heartRate,"LOF,MF,nor_null,nor_null,dup_null,out_null,OLS",123.06468254091631,0.09092116355895996,"(4238, 16)",https
+102,framingham_heartRate,heartRate,"LOF,MF,nor_null,nor_null,dup_null,out_null,RF_REG",131.20153832599118,1.366997480392456,"(4238, 16)",https
+103,framingham_heartRate,heartRate,"LOF,MF,nor_null,nor_null,dup_null,out_null,LASSO",123.32502854900804,0.18400049209594727,"(4238, 16)",https
+104,framingham_heartRate,heartRate,"LOF,MF,ZS,nor_null,dup_null,out_null,OLS",134.46356641995777,0.12489938735961914,"(4238, 16)",https
+105,framingham_heartRate,heartRate,"LOF,MF,ZS,nor_null,dup_null,out_null,RF_REG",138.60920307917888,1.4450008869171143,"(4238, 16)",https
+106,framingham_heartRate,heartRate,"MF,nor_null,fea_null,nor_null,dup_null,out_null,OLS",135.79180627166124,0.031013011932373047,"(4238, 16)",https
+107,framingham_heartRate,heartRate,"MF,nor_null,fea_null,nor_null,dup_null,out_null,RF_REG",140.27367476415094,1.779557228088379,"(4238, 16)",https
+108,framingham_heartRate,heartRate,"MF,nor_null,fea_null,nor_null,dup_null,out_null,LASSO",136.59877272189829,0.18099093437194824,"(4238, 16)",https
+109,framingham_heartRate,heartRate,"MEDIAN,ZS,fea_null,nor_null,dup_null,out_null,OLS",140.90523810343316,0.0520174503326416,"(4238, 16)",https
+110,framingham_heartRate,heartRate,"MEDIAN,ZS,fea_null,nor_null,dup_null,out_null,RF_REG",143.2337495283019,1.7540130615234375,"(4238, 16)",https
+111,kc_house_data,price,"ZS,enc_null,fea_null,nor_null,dup_null,out_null,OLS",252436.05044011332,0.0730130672454834,"(21613, 21)",https
+112,kc_house_data,price,"ZS,enc_null,fea_null,nor_null,dup_null,out_null,RF_REG",100197.87650084158,18.609987020492554,"(21613, 21)",https
+113,kc_house_data,price,"ZS,enc_null,fea_null,nor_null,dup_null,out_null,LASSO",3347528.045239236,1.1899986267089844,"(21613, 21)",https
+114,kc_house_data,price,"IQR,enc_null,fea_null,nor_null,dup_null,out_null,OLS",228728.57570061265,0.07398343086242676,"(21613, 21)",https
+115,kc_house_data,price,"IQR,enc_null,fea_null,nor_null,dup_null,out_null,RF_REG",101439.91725128461,11.5907301902771,"(21613, 21)",https
+116,kc_house_data,price,"IQR,enc_null,fea_null,nor_null,dup_null,out_null,LASSO",400573.91330252984,4.772935628890991,"(21613, 21)",https
+117,kc_house_data,price,"IQR,DS,fea_null,nor_null,dup_null,out_null,OLS",255294.52074623882,0.11300301551818848,"(21613, 21)",https
+118,kc_house_data,price,"IQR,DS,fea_null,nor_null,dup_null,out_null,RF_REG",94328.66048596195,9.787004947662354,"(21613, 21)",https
+119,kc_house_data,price,"IQR,DS,fea_null,nor_null,dup_null,out_null,LASSO",255737.02419062058,5.129971265792847,"(21613, 21)",https
+120,kc_house_data,price,"ED,LOF,DS,nor_null,dup_null,out_null,RF_REG",104215.3246532285,17.41048812866211,"(21613, 21)",https
+121,winequality_red,quality,"ZS,fea_null,enc_null,nor_null,dup_null,out_null,OLS",0.38495897237299126,0.027020692825317383,"(1599, 12)",https
+122,winequality_red,quality,"ZS,fea_null,enc_null,nor_null,dup_null,out_null,RF_REG",0.31471187500000003,0.5579824447631836,"(1599, 12)",https
+123,winequality_red,quality,"LOF,DS,enc_null,nor_null,dup_null,out_null,OLS",0.43518892119341535,0.03599429130554199,"(1599, 12)",https
+124,winequality_red,quality,"LOF,DS,enc_null,nor_null,dup_null,out_null,RF_REG",0.3884818518518518,0.5640068054199219,"(1599, 12)",https
+125,winequality_red,quality,"LOF,DS,enc_null,nor_null,dup_null,out_null,LASSO",0.5800479843785575,0.05999898910522461,"(1599, 12)",https
+126,winequality_red,quality,"LOF,ED,enc_null,nor_null,dup_null,out_null,OLS",0.3956580354169457,0.02200007438659668,"(1599, 12)",https
+127,winequality_red,quality,"LOF,ED,enc_null,nor_null,dup_null,out_null,RF_REG",0.3169266159695817,0.4655125141143799,"(1599, 12)",https
+128,winequality_red,quality,"LOF,ED,enc_null,nor_null,dup_null,out_null,LASSO",0.3945274443526174,0.1750020980834961,"(1599, 12)",https
+129,winequality_red,quality,"LC,LOF,ED,nor_null,dup_null,out_null,RF_REG",0.5308093984962408,0.3270149230957031,"(1599, 12)",https
+130,winequality_red,quality,"LC,IQR,MM,nor_null,dup_null,out_null,OLS",0.7435229906389701,0.44794559478759766,"(1599, 12)",https
+131,Acoustic,STATUS,"OE,ZS,MM,nor_null,dup_null,out_null,OLS",0.08943865973301018,0.0429224967956543,"(17442, 7)",https
+132,Acoustic,STATUS,"OE,ZS,MM,nor_null,dup_null,out_null,RF_REG",0.0197481799942677,1.2440171241760254,"(17442, 7)",https
+133,Acoustic,STATUS,"OE,ZS,MM,nor_null,dup_null,out_null,LASSO",0.098297773000129,0.07500028610229492,"(17442, 7)",https
+134,Acoustic,STATUS,"OE,nor_null,MM,nor_null,dup_null,out_null,OLS",0.09275722318313745,0.034996747970581055,"(17442, 7)",https
+135,Acoustic,STATUS,"OE,nor_null,MM,nor_null,dup_null,out_null,RF_REG",0.02107237030667813,1.2190043926239014,"(17442, 7)",https
+136,Acoustic,STATUS,"OE,nor_null,MM,nor_null,dup_null,out_null,LASSO",0.10249530327738643,0.06917285919189453,"(17442, 7)",https
+137,Acoustic,STATUS,"BE,DS,MM,nor_null,dup_null,out_null,OLS",0.11363832971707233,0.11293244361877441,"(17442, 7)",https
+138,Acoustic,STATUS,"BE,DS,MM,nor_null,dup_null,out_null,RF_REG",0.040571395815419894,2.5357067584991455,"(17442, 7)",https
+139,Acoustic,STATUS,"BE,DS,MM,nor_null,dup_null,out_null,LASSO",0.10149141672647939,0.4259960651397705,"(17442, 7)",https
+140,Acoustic,STATUS,"LOF,BE,DS,nor_null,dup_null,out_null,RF_REG",0.06770962489095667,1.5129992961883545,"(17442, 7)",https
+141,Bank_Personal_Loan_Modelling,CreditCard,"ZS,imp_null,fea_null,nor_null,dup_null,out_null,OLS",0.18692719543219613,0.03499913215637207,"(5000, 14)",https
+142,Bank_Personal_Loan_Modelling,CreditCard,"ZS,imp_null,fea_null,nor_null,dup_null,out_null,RF_REG",0.19536340000000002,1.9180023670196533,"(5000, 14)",https
+143,Bank_Personal_Loan_Modelling,CreditCard,"ZS,imp_null,fea_null,nor_null,dup_null,out_null,LASSO",0.2828257720431076,0.06400012969970703,"(5000, 14)",https
+144,Bank_Personal_Loan_Modelling,CreditCard,"ZS,IQR,fea_null,nor_null,dup_null,out_null,OLS",0.1987279390604086,0.06800532341003418,"(5000, 14)",https
+145,Bank_Personal_Loan_Modelling,CreditCard,"ZS,IQR,fea_null,nor_null,dup_null,out_null,RF_REG",0.20600712008501598,4.356003761291504,"(5000, 14)",https
+146,Bank_Personal_Loan_Modelling,CreditCard,"IQR,AD,ZS,nor_null,dup_null,out_null,OLS",0.18034767499347462,9.531173944473267,"(5000, 14)",https
+147,Bank_Personal_Loan_Modelling,CreditCard,"IQR,AD,ZS,nor_null,dup_null,out_null,RF_REG",0.1964802013422819,2.830007791519165,"(5000, 14)",https
+148,Bank_Personal_Loan_Modelling,CreditCard,"IQR,AD,ZS,nor_null,dup_null,out_null,LASSO",0.266220766498908,0.46799683570861816,"(5000, 14)",https
+149,Bank_Personal_Loan_Modelling,CreditCard,"IQR,AD,ZS,LC,dup_null,out_null,OLS",0.2149229800097758,8.662812948226929,"(5000, 14)",https
+150,Bank_Personal_Loan_Modelling,CreditCard,"IQR,AD,ZS,LC,dup_null,out_null,RF_REG",0.23018177727784025,2.0129990577697754,"(5000, 14)",https
+151,Banking Dataset Classification,y,"LC,IQR,ZS,imp_null,dup_null,out_null,OLS",0.05490051308823462,0.48390913009643555,"(32950, 16)",https
+152,Banking Dataset Classification,y,"LC,IQR,ZS,imp_null,dup_null,out_null,RF_REG",0.06818346703206453,2.477001428604126,"(32950, 16)",https
+153,Banking Dataset Classification,y,"LC,IQR,ZS,imp_null,dup_null,out_null,LASSO",0.05898165813525835,0.1069955825805664,"(32950, 16)",https
+154,Banking Dataset Classification,y,"OE,MM,fea_null,imp_null,dup_null,out_null,LASSO",0.07570175056357921,0.40001749992370605,"(32950, 16)",https
+155,Banking Dataset Classification,y,"OE,LC,fea_null,imp_null,dup_null,out_null,OLS",0.07882657390879469,0.5428810119628906,"(32950, 16)",https
+156,Banking Dataset Classification,y,"OE,LC,fea_null,imp_null,dup_null,out_null,RF_REG",0.06781705614567526,6.782093048095703,"(32950, 16)",https
+157,Banking Dataset Classification,y,"OE,LC,ZS,imp_null,dup_null,out_null,RF_REG",0.07073516902714551,7.949021339416504,"(32950, 16)",https
+158,Banking Dataset Classification,y,"IQR,LC,ZS,imp_null,dup_null,out_null,OLS",0.05245514428382602,0.08100318908691406,"(32950, 16)",https
+159,Banking Dataset Classification,y,"IQR,LC,ZS,imp_null,dup_null,out_null,RF_REG",0.0627237353318105,2.495995044708252,"(32950, 16)",https
+160,Banking Dataset Classification,y,"IQR,LC,ZS,imp_null,dup_null,out_null,LASSO",0.05578061900785788,0.12300539016723633,"(32950, 16)",https
+161,bmi,Index,"IQR,OE,nor_null,imp_null,dup_null,out_null,RF_REG",0.10856,0.12099218368530273,"(500, 4)",https
+162,bmi,Index,"IQR,OE,nor_null,imp_null,dup_null,out_null,LASSO",0.5873546358347609,0.03210854530334473,"(500, 4)",https
+163,bmi,Index,"IQR,ZS,nor_null,imp_null,dup_null,out_null,OLS",0.2966820796230459,0.017055034637451172,"(500, 4)",https
+164,bmi,Index,"IQR,ZS,nor_null,imp_null,dup_null,out_null,RF_REG",0.10627799999999998,0.11292791366577148,"(500, 4)",https
+165,bmi,Index,"OE,IQR,ZS,imp_null,dup_null,out_null,OLS",0.3496638940020346,0.024926185607910156,"(500, 4)",https
+166,bmi,Index,"OE,IQR,ZS,imp_null,dup_null,out_null,RF_REG",0.09740799999999998,0.1260075569152832,"(500, 4)",https
+167,bmi,Index,"OE,ZS,fea_null,imp_null,dup_null,out_null,OLS",0.29503675367851073,0.013008832931518555,"(500, 4)",https
+168,bmi,Index,"OE,ZS,fea_null,imp_null,dup_null,out_null,RF_REG",0.080846,0.11101174354553223,"(500, 4)",https
+169,bmi,Index,"enc_null,ZS,fea_null,imp_null,dup_null,out_null,OLS",0.2868914769086829,0.012999773025512695,"(500, 4)",https
+170,bmi,Index,"enc_null,ZS,fea_null,imp_null,dup_null,out_null,RF_REG",0.12500199999999997,0.10907936096191406,"(500, 4)",https
+171,bodyPerformance,class,"enc_null,ZS,fea_null,imp_null,dup_null,out_null,OLS",0.5578527440678268,0.028893470764160156,"(13393, 12)",https
+172,bodyPerformance,class,"enc_null,ZS,fea_null,imp_null,dup_null,out_null,RF_REG",0.3497921985815603,6.935009241104126,"(13393, 12)",https
+173,bodyPerformance,class,"OE,ZS,fea_null,imp_null,dup_null,out_null,OLS",0.5052294776283205,0.05700802803039551,"(13393, 12)",https
+174,bodyPerformance,class,"OE,ZS,fea_null,imp_null,dup_null,out_null,RF_REG",0.33560418066442704,6.71398401260376,"(13393, 12)",https
+175,bodyPerformance,class,"OE,LOF,fea_null,imp_null,dup_null,out_null,OLS",0.4954064845289916,0.5950412750244141,"(13393, 12)",https
+176,bodyPerformance,class,"OE,LOF,fea_null,imp_null,dup_null,out_null,RF_REG",0.3241676683149486,7.944185256958008,"(13393, 12)",https
+177,bodyPerformance,class,"OE,LOF,fea_null,imp_null,dup_null,out_null,LASSO",0.5069608173068945,5.101004362106323,"(13393, 12)",https
+178,bodyPerformance,class,"ED,FD,fea_null,imp_null,dup_null,out_null,OLS",0.5414229935384223,0.05399775505065918,"(13393, 12)",https
+179,bodyPerformance,class,"ED,FD,fea_null,imp_null,dup_null,out_null,RF_REG",0.34961347517730496,5.677999258041382,"(13393, 12)",https
+180,bodyPerformance,class,"ED,FD,fea_null,imp_null,dup_null,out_null,LASSO",0.5448836195915248,2.0069987773895264,"(13393, 12)",https
+181,Linear_Regression_test,y,"MM,imp_null,fea_null,imp_null,dup_null,out_null,OLS",117.36881151567563,0.013012886047363281,"(300, 2)",https
+182,Linear_Regression_test,y,"MM,imp_null,fea_null,imp_null,dup_null,out_null,LASSO",103.26162710926837,0.024979114532470703,"(300, 2)",https
+183,Linear_Regression_test,y,"IQR,MM,fea_null,imp_null,dup_null,out_null,OLS",115.05892526206273,0.02199244499206543,"(300, 2)",https
+184,Linear_Regression_test,y,"IQR,MM,fea_null,imp_null,dup_null,out_null,RF_REG",113.90217134340512,0.11893296241760254,"(300, 2)",https
+185,Linear_Regression_test,y,"IQR,MM,fea_null,imp_null,dup_null,out_null,LASSO",107.64950151244172,0.032071828842163086,"(300, 2)",https
+186,Linear_Regression_test,y,"ED,IQR,MM,imp_null,dup_null,out_null,OLS",105.4983408697128,0.019999980926513672,"(300, 2)",https
+187,Linear_Regression_test,y,"ED,IQR,MM,imp_null,dup_null,out_null,RF_REG",104.57105000000003,0.10099601745605469,"(300, 2)",https
+188,Linear_Regression_test,y,"ED,IQR,MM,imp_null,dup_null,out_null,LASSO",102.44373217642801,0.032000064849853516,"(300, 2)",https
+189,Linear_Regression_test,y,"ED,fea_null,MM,imp_null,dup_null,out_null,OLS",78.56962268334675,0.014902591705322266,"(300, 2)",https
+190,Linear_Regression_test,y,"ED,fea_null,MM,imp_null,dup_null,out_null,LASSO",82.0036146069001,0.02710866928100586,"(300, 2)",https
+191,Breast Cancer Prediction,Class,"ZS,fea_null,enc_null,imp_null,dup_null,out_null,OLS",0.03448800875279286,0.027999162673950195,"(683, 11)",https
+192,Breast Cancer Prediction,Class,"ZS,fea_null,enc_null,imp_null,dup_null,out_null,RF_REG",0.02420729927007299,0.15007305145263672,"(683, 11)",https
+193,Breast Cancer Prediction,Class,"ED,ZS,enc_null,imp_null,dup_null,out_null,OLS",0.044738473475725606,0.02700495719909668,"(683, 11)",https
+194,Breast Cancer Prediction,Class,"ED,ZS,enc_null,imp_null,dup_null,out_null,RF_REG",0.04136544117647059,0.13103246688842773,"(683, 11)",https
+195,Breast Cancer Prediction,Class,"ED,ZS,enc_null,imp_null,dup_null,out_null,LASSO",0.15916682234865204,0.035005807876586914,"(683, 11)",https
+196,Breast Cancer Prediction,Class,"IQR,ZS,enc_null,imp_null,dup_null,out_null,OLS",0.02557912885144116,0.0531308650970459,"(683, 11)",https
+197,Breast Cancer Prediction,Class,"IQR,ZS,enc_null,imp_null,dup_null,out_null,RF_REG",0.016808256880733945,0.2110440731048584,"(683, 11)",https
+198,Breast Cancer Prediction,Class,"IQR,ZS,enc_null,imp_null,dup_null,out_null,LASSO",0.06995196991841285,0.06499671936035156,"(683, 11)",https
+199,Breast Cancer Prediction,Class,"ED,IQR,ZS,imp_null,dup_null,out_null,OLS",0.03949587923412003,0.0379939079284668,"(683, 11)",https
+200,Breast Cancer Prediction,Class,"ED,IQR,ZS,imp_null,dup_null,out_null,RF_REG",0.039384375,0.14201951026916504,"(683, 11)",https
+201,Breast Cancer Prediction_NN,Normal Nucleoli,"ED,IQR,ZS,imp_null,dup_null,out_null,OLS",2.2638188164229116,0.036031484603881836,"(683, 11)",https
+202,Breast Cancer Prediction_NN,Normal Nucleoli,"ED,IQR,ZS,imp_null,dup_null,out_null,RF_REG",2.365739814814815,0.2179718017578125,"(683, 11)",https
+203,Breast Cancer Prediction_NN,Normal Nucleoli,"ED,IQR,ZS,imp_null,dup_null,out_null,LASSO",3.5496186286423774,0.05800175666809082,"(683, 11)",https
+204,Breast Cancer Prediction_NN,Normal Nucleoli,"imp_null,IQR,ZS,imp_null,dup_null,out_null,OLS",1.6502881982763373,0.033074140548706055,"(683, 11)",https
+205,Breast Cancer Prediction_NN,Normal Nucleoli,"imp_null,IQR,ZS,imp_null,dup_null,out_null,RF_REG",1.7641203883495145,0.17600631713867188,"(683, 11)",https
+206,Breast Cancer Prediction_NN,Normal Nucleoli,"imp_null,IQR,ZS,imp_null,dup_null,out_null,LASSO",2.626332156685494,0.0489346981048584,"(683, 11)",https
+207,Breast Cancer Prediction_NN,Normal Nucleoli,"ED,fea_null,ZS,imp_null,dup_null,out_null,OLS",3.2925020584338855,0.024930477142333984,"(683, 11)",https
+208,Breast Cancer Prediction_NN,Normal Nucleoli,"ED,fea_null,ZS,imp_null,dup_null,out_null,RF_REG",3.6852394160583946,0.18501830101013184,"(683, 11)",https
+209,Breast Cancer Prediction_NN,Normal Nucleoli,"fea_null,fea_null,ZS,imp_null,dup_null,out_null,OLS",3.009343770810938,0.031999826431274414,"(683, 11)",https
+210,Breast Cancer Prediction_NN,Normal Nucleoli,"fea_null,fea_null,ZS,imp_null,dup_null,out_null,RF_REG",3.312842335766423,0.21899843215942383,"(683, 11)",https
+211,car_data,Purchased,"OE,ZS,fea_null,imp_null,dup_null,out_null,OLS",0.14499509435219607,0.017988204956054688,"(1000, 5)",https
+212,car_data,Purchased,"OE,ZS,fea_null,imp_null,dup_null,out_null,RF_REG",0.0750775,0.17499804496765137,"(1000, 5)",https
+213,car_data,Purchased,"OE,ZS,fea_null,imp_null,dup_null,out_null,LASSO",0.303729384598549,0.037004947662353516,"(1000, 5)",https
+214,car_data,Purchased,"OE,nor_null,fea_null,imp_null,dup_null,out_null,OLS",0.13812257231233904,0.01100301742553711,"(1000, 5)",https
+215,car_data,Purchased,"OE,nor_null,fea_null,imp_null,dup_null,out_null,RF_REG",0.08808800000000001,0.17201828956604004,"(1000, 5)",https
+216,car_data,Purchased,"OE,nor_null,fea_null,imp_null,dup_null,out_null,LASSO",0.17918771088103014,0.024000167846679688,"(1000, 5)",https
+217,car_data,Purchased,"ZS,nor_null,fea_null,imp_null,dup_null,out_null,OLS",0.12710277520607524,0.013004779815673828,"(1000, 5)",https
+218,car_data,Purchased,"ZS,nor_null,fea_null,imp_null,dup_null,out_null,RF_REG",0.0840405,0.18399477005004883,"(1000, 5)",https
+219,car_data,Purchased,"ED,LOF,ZS,imp_null,dup_null,out_null,OLS",0.15308475498016785,0.02402043342590332,"(1000, 5)",https
+220,car_data,Purchased,"ED,LOF,ZS,imp_null,dup_null,out_null,RF_REG",0.10925666666666667,0.16918659210205078,"(1000, 5)",https
+221,card_transdata,fraud,"MM,nor_null,fea_null,imp_null,dup_null,out_null,OLS",0.12407656949502956,2.497002124786377,"(1000000, 8)",https
+222,card_transdata,fraud,"MM,LOF,fea_null,imp_null,dup_null,out_null,LASSO",0.06045598697443567,313.97083282470703,"(1000000, 8)",https
+223,card_transdata,fraud,"MM,nor_null,fea_null,imp_null,dup_null,out_null,LASSO",0.0604501011202952,5.623157024383545,"(1000000, 8)",https
+224,card_transdata,fraud,"LOF,nor_null,fea_null,imp_null,dup_null,out_null,OLS",0.05397137880676391,140.43663907051086,"(1000000, 8)",https
+225,card_transdata,fraud,"LOF,nor_null,fea_null,imp_null,dup_null,out_null,LASSO",0.05429920455439874,82.60411930084229,"(1000000, 8)",https
+226,card_transdata,fraud,"ZS,LOF,fea_null,imp_null,dup_null,out_null,OLS",0.0546911540136936,362.81770730018616,"(1000000, 8)",https
+227,card_transdata,fraud,"ZS,LOF,fea_null,imp_null,dup_null,out_null,RF_REG",0.0027707846961740426,415.0465352535248,"(1000000, 8)",https
+228,card_transdata,fraud,"ZS,LOF,fea_null,imp_null,dup_null,out_null,LASSO",0.06243142571352067,191.79241347312927,"(1000000, 8)",https
+229,card_transdata,fraud,"MM,LOF,fea_null,imp_null,dup_null,out_null,OLS",0.1189741245939275,613.6089613437653,"(1000000, 8)",https
+230,card_transdata,fraud,"MM,LOF,fea_null,imp_null,dup_null,out_null,RF_REG",0.15961135283820957,480.8197979927063,"(1000000, 8)",https
+231,cirrhosis,Stage,"MEDIAN,OE,fea_null,imp_null,dup_null,out_null,OLS",0.4504171446853905,0.04300713539123535,"(418, 20)",https
+232,cirrhosis,Stage,"MEDIAN,OE,fea_null,imp_null,dup_null,out_null,RF_REG",0.446690625,0.30399560928344727,"(418, 20)",https
+233,cirrhosis,Stage,"MEDIAN,OE,fea_null,imp_null,dup_null,out_null,LASSO",0.4549495812798754,0.08600878715515137,"(418, 20)",https
+234,cirrhosis,Stage,"DROP,BE,fea_null,imp_null,dup_null,out_null,OLS",0.902361098556445,0.126068115234375,"(418, 20)",https
+235,cirrhosis,Stage,"DROP,BE,fea_null,imp_null,dup_null,out_null,RF_REG",0.7996593220338982,0.31694650650024414,"(418, 20)",https
+236,cirrhosis,Stage,"DROP,BE,fea_null,imp_null,dup_null,out_null,LASSO",0.9085655038637143,0.150054931640625,"(418, 20)",https
+237,cirrhosis,Stage,"MR,ZS,fea_null,imp_null,dup_null,out_null,OLS",0.7436152190065493,0.03191542625427246,"(418, 20)",https
+238,cirrhosis,Stage,"MR,ZS,fea_null,imp_null,dup_null,out_null,RF_REG",0.6434652173913042,0.20600247383117676,"(418, 20)",https
+239,cirrhosis,Stage,"IQR,ZS,fea_null,imp_null,dup_null,out_null,OLS",0.6701538252497241,0.05206871032714844,"(418, 20)",https
+240,cirrhosis,Stage,"IQR,ZS,fea_null,imp_null,dup_null,out_null,RF_REG",0.6784333333333334,0.20192670822143555,"(418, 20)",https
+241,classast - pha,class,"IQR,ZS,ED,imp_null,dup_null,out_null,OLS",0.3296217982218039,0.047005414962768555,"(1748, 12)",https
+242,classast - pha,class,"IQR,ZS,ED,imp_null,dup_null,out_null,RF_REG",0.1439906906906907,0.8859970569610596,"(1748, 12)",https
+243,classast - pha,class,"IQR,ZS,fea_null,imp_null,dup_null,out_null,OLS",0.3263697049818637,0.07154440879821777,"(1748, 12)",https
+244,classast - pha,class,"IQR,ZS,fea_null,imp_null,dup_null,out_null,RF_REG",0.30919461077844307,1.2550065517425537,"(1748, 12)",https
+245,classast - pha,class,"LOF,nor_null,fea_null,imp_null,dup_null,out_null,RF_REG",0.008418333333333333,0.5809879302978516,"(1748, 12)",https
+246,classast - pha,class,"LOF,nor_null,fea_null,imp_null,dup_null,out_null,LASSO",1.2254523111043152,0.5689969062805176,"(1748, 12)",https
+247,classast - pha,class,"ED,ZS,fea_null,imp_null,dup_null,out_null,OLS",0.5165721830809649,0.03799939155578613,"(1748, 12)",https
+248,classast - pha,class,"ED,ZS,fea_null,imp_null,dup_null,out_null,RF_REG",0.7280854285714286,0.35700130462646484,"(1748, 12)",https
+249,classast - pha,class,"imp_null,ZS,fea_null,imp_null,dup_null,out_null,OLS",0.5196187444289223,0.029001235961914062,"(1748, 12)",https
+250,classast - pha,class,"imp_null,ZS,fea_null,imp_null,dup_null,out_null,RF_REG",0.5211205714285715,0.32601380348205566,"(1748, 12)",https
+251,classification_in_asteroseismology,POP,"AD,ZS,imp_null,imp_null,dup_null,out_null,OLS",0.04635014533671715,10.803292989730835,"(1001, 4)",https
+252,classification_in_asteroseismology,POP,"AD,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",0.04605522388059701,0.5839951038360596,"(1001, 4)",https
+253,classification_in_asteroseismology,POP,"AD,ZS,imp_null,imp_null,dup_null,out_null,LASSO",0.5455533753870263,0.2890019416809082,"(1001, 4)",https
+254,classification_in_asteroseismology,POP,"IQR,ZS,fea_null,imp_null,dup_null,out_null,OLS",0.05624126750061977,0.043009281158447266,"(1001, 4)",https
+255,classification_in_asteroseismology,POP,"IQR,ZS,fea_null,imp_null,dup_null,out_null,RF_REG",0.033124444444444436,0.2619922161102295,"(1001, 4)",https
+256,classification_in_asteroseismology,POP,"IQR,ZS,fea_null,imp_null,dup_null,out_null,LASSO",0.5821242307963878,0.05799126625061035,"(1001, 4)",https
+257,classification_in_asteroseismology,POP,"imp_null,LOF,fea_null,imp_null,dup_null,out_null,OLS",0.03929832249581319,0.03200101852416992,"(1001, 4)",https
+258,classification_in_asteroseismology,POP,"imp_null,LOF,fea_null,imp_null,dup_null,out_null,RF_REG",0.015413245033112583,0.3279991149902344,"(1001, 4)",https
+259,classification_in_asteroseismology,POP,"ZS,nor_null,fea_null,imp_null,dup_null,out_null,OLS",0.05128687687847888,0.015035629272460938,"(1001, 4)",https
+260,classification_in_asteroseismology,POP,"ZS,nor_null,fea_null,imp_null,dup_null,out_null,RF_REG",0.04154328358208955,0.16093206405639648,"(1001, 4)",https
+261,classification_in_asteroseismology_epsilon,epsilon,"ZS,nor_null,fea_null,imp_null,dup_null,out_null,RF_REG",1196.590215920398,0.21099519729614258,"(1001, 4)",https
+262,classification_in_asteroseismology_epsilon,epsilon,"imp_null,LOF,fea_null,imp_null,dup_null,out_null,OLS",1001.2517247730735,0.021013259887695312,"(1001, 4)",https
+263,classification_in_asteroseismology_epsilon,epsilon,"imp_null,LOF,fea_null,imp_null,dup_null,out_null,RF_REG",916.1382854304636,0.26198554039001465,"(1001, 4)",https
+264,classification_in_asteroseismology_epsilon,epsilon,"imp_null,LOF,fea_null,imp_null,dup_null,out_null,LASSO",1003.9859685926241,0.03408026695251465,"(1001, 4)",https
+265,classification_in_asteroseismology_epsilon,epsilon,"IQR,ZS,fea_null,imp_null,dup_null,out_null,OLS",1171.5915138474372,0.02407550811767578,"(1001, 4)",https
+266,classification_in_asteroseismology_epsilon,epsilon,"IQR,ZS,fea_null,imp_null,dup_null,out_null,RF_REG",1061.3885483146066,0.23900318145751953,"(1001, 4)",https
+267,classification_in_asteroseismology_epsilon,epsilon,"AD,ZS,imp_null,imp_null,dup_null,out_null,OLS",1324.3817033004357,6.380626201629639,"(1001, 4)",https
+268,classification_in_asteroseismology_epsilon,epsilon,"MM,LOF,imp_null,imp_null,dup_null,out_null,OLS",1004.7365734266392,0.0279843807220459,"(1001, 4)",https
+269,classification_in_asteroseismology_epsilon,epsilon,"MM,LOF,imp_null,imp_null,dup_null,out_null,RF_REG",1141.5846119205298,0.2720186710357666,"(1001, 4)",https
+270,classification_in_asteroseismology_epsilon,epsilon,"MM,LOF,imp_null,imp_null,dup_null,out_null,LASSO",1089.6868612008377,0.054988861083984375,"(1001, 4)",https
+271,Covid Dataset,COVID-19,"OE,MM,imp_null,imp_null,dup_null,out_null,OLS",0.057045449592186936,0.2509903907775879,"(5434, 21)",https
+272,Covid Dataset,COVID-19,"OE,MM,imp_null,imp_null,dup_null,out_null,RF_REG",0.011328481213348847,1.3129520416259766,"(5434, 21)",https
+273,Covid Dataset,COVID-19,"OE,LC,MM,imp_null,dup_null,out_null,OLS",0.07640401287002432,0.5189552307128906,"(5434, 21)",https
+274,Covid Dataset,COVID-19,"OE,LC,MM,imp_null,dup_null,out_null,RF_REG",0.013018489335587117,0.470020055770874,"(5434, 21)",https
+275,Covid Dataset,COVID-19,"OE,LC,MM,imp_null,dup_null,out_null,LASSO",0.07651216260828098,0.11700582504272461,"(5434, 21)",https
+276,Covid Dataset,COVID-19,"FE,LC,fea_null,imp_null,dup_null,out_null,RF_REG",0.34339293563959533,0.5660066604614258,"(5434, 21)",https
+277,Covid Dataset,COVID-19,"FE,LC,fea_null,imp_null,dup_null,out_null,LASSO",0.3563781773617689,1.1940090656280518,"(5434, 21)",https
+278,Covid Dataset,COVID-19,"OE,nor_null,fea_null,imp_null,dup_null,out_null,OLS",0.05676219409081443,0.05297565460205078,"(5434, 21)",https
+279,Covid Dataset,COVID-19,"OE,nor_null,fea_null,imp_null,dup_null,out_null,RF_REG",0.013705112123693372,0.45108962059020996,"(5434, 21)",https
+280,Covid Dataset,COVID-19,"OE,nor_null,fea_null,imp_null,dup_null,out_null,LASSO",0.05705878956207117,0.07903122901916504,"(5434, 21)",https
+281,CTG,NSP,"LOF,DS,fea_null,imp_null,dup_null,out_null,OLS",0.016308795709840694,0.2679316997528076,"(2129, 40)",https
+282,CTG,NSP,"LOF,DS,fea_null,imp_null,dup_null,out_null,RF_REG",0.01644650311111111,2.6590077877044678,"(2129, 40)",https
+283,CTG,NSP,"LOF,DS,fea_null,imp_null,dup_null,out_null,LASSO",0.01594272146629202,0.2399919033050537,"(2129, 40)",https
+284,CTG,NSP,"ZS,imp_null,fea_null,imp_null,dup_null,out_null,OLS",0.02003798263035992,0.09197402000427246,"(2129, 40)",https
+285,CTG,NSP,"ZS,imp_null,fea_null,imp_null,dup_null,out_null,RF_REG",0.006841516601307191,2.141010284423828,"(2129, 40)",https
+286,CTG,NSP,"ZS,imp_null,fea_null,imp_null,dup_null,out_null,LASSO",0.024462589152608735,0.2709949016571045,"(2129, 40)",https
+287,CTG,NSP,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",0.017355528453498633,0.10199880599975586,"(2129, 40)",https
+288,CTG,NSP,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",0.006423943661971831,1.0129821300506592,"(2129, 40)",https
+289,CTG,NSP,"OE,ZS,imp_null,imp_null,dup_null,out_null,LASSO",0.018267776182605992,0.10908198356628418,"(2129, 40)",https
+290,CTG,NSP,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,RF_REG",0.011695294117647057,1.060983657836914,"(2129, 40)",https
+291,CTG_class,CLASS,"imp_null,OE,ZS,imp_null,dup_null,out_null,RF_REG",0.012453051643192504,2.1549863815307617,"(2129, 40)",https
+292,CTG_class,CLASS,"imp_null,OE,ZS,imp_null,dup_null,out_null,LASSO",0.12936229360258333,0.3260059356689453,"(2129, 40)",https
+293,CTG_class,CLASS,"ZS,imp_null,fea_null,imp_null,dup_null,out_null,OLS",0.05185311112018838,0.07401466369628906,"(2129, 40)",https
+294,CTG_class,CLASS,"ZS,imp_null,fea_null,imp_null,dup_null,out_null,RF_REG",0.010505882352941214,0.5379829406738281,"(2129, 40)",https
+295,CTG_class,CLASS,"ZS,imp_null,fea_null,imp_null,dup_null,out_null,LASSO",0.040551021374714262,0.7280080318450928,"(2129, 40)",https
+296,CTG_class,CLASS,"LOF,DS,fea_null,imp_null,dup_null,out_null,RF_REG",0.019726595744680855,0.7771055698394775,"(2129, 40)",https
+297,CTG_class,CLASS,"LOF,DS,fea_null,imp_null,dup_null,out_null,LASSO",0.034393739341501283,0.21790266036987305,"(2129, 40)",https
+298,CTG_class,CLASS,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,OLS",0.1556247974725175,0.11893343925476074,"(2129, 40)",https
+299,CTG_class,CLASS,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,RF_REG",0.02160470588235294,0.7741513252258301,"(2129, 40)",https
+300,CTG_class,CLASS,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,LASSO",0.15289786431452299,0.15159320831298828,"(2129, 40)",https
+301,CTG_Variance,Variance,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,OLS",219.92772758982144,0.5200135707855225,"(2129, 40)",https
+302,CTG_Variance,Variance,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,RF_REG",106.49372394366199,3.3390040397644043,"(2129, 40)",https
+303,CTG_Variance,Variance,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,LASSO",228.61547580464082,0.18898558616638184,"(2129, 40)",https
+304,CTG_Variance,Variance,"imp_null,OE,ZS,imp_null,dup_null,out_null,OLS",198.05396512496512,0.13698840141296387,"(2129, 40)",https
+305,CTG_Variance,Variance,"imp_null,OE,ZS,imp_null,dup_null,out_null,RF_REG",116.35742136150235,4.649578332901001,"(2129, 40)",https
+306,CTG_Variance,Variance,"imp_null,OE,ZS,imp_null,dup_null,out_null,LASSO",199.6793146799947,0.3069901466369629,"(2129, 40)",https
+307,CTG_Variance,Variance,"ZS,imp_null,fea_null,imp_null,dup_null,out_null,RF_REG",124.97614894117646,1.778993844985962,"(2129, 40)",https
+308,CTG_Variance,Variance,"LOF,DS,fea_null,imp_null,dup_null,out_null,OLS",192.01605375459098,0.24399733543395996,"(2129, 40)",https
+309,CTG_Variance,Variance,"LOF,DS,fea_null,imp_null,dup_null,out_null,RF_REG",106.75605,1.8330745697021484,"(2129, 40)",https
+310,CTG_Variance,Variance,"LOF,DS,fea_null,imp_null,dup_null,out_null,LASSO",191.7806615730838,0.21694207191467285,"(2129, 40)",https
+311,CTG_Median,Median,"LOF,DS,fea_null,imp_null,dup_null,out_null,RF_REG",5.322931117021276,2.1080033779144287,"(2129, 40)",https
+312,CTG_Median,Median,"ZS,imp_null,fea_null,imp_null,dup_null,out_null,OLS",9.219441483823713,0.23790240287780762,"(2129, 40)",https
+313,CTG_Median,Median,"ZS,imp_null,fea_null,imp_null,dup_null,out_null,RF_REG",5.431611971830986,3.564988851547241,"(2129, 40)",https
+314,CTG_Median,Median,"ZS,imp_null,fea_null,imp_null,dup_null,out_null,LASSO",10.085293905029419,0.18401312828063965,"(2129, 40)",https
+315,CTG_Median,Median,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,OLS",8.640789699269723,0.14301514625549316,"(2129, 40)",https
+316,CTG_Median,Median,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,RF_REG",4.0879629107981215,3.3920814990997314,"(2129, 40)",https
+317,CTG_Median,Median,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,LASSO",8.645785616360582,0.15714192390441895,"(2129, 40)",https
+318,CTG_Median,Median,"imp_null,OE,ZS,imp_null,dup_null,out_null,OLS",7.229026287175494,0.12398052215576172,"(2129, 40)",https
+319,CTG_Median,Median,"imp_null,OE,ZS,imp_null,dup_null,out_null,RF_REG",3.432300470588235,1.6660020351409912,"(2129, 40)",https
+320,CTG_Median,Median,"imp_null,OE,ZS,imp_null,dup_null,out_null,LASSO",8.047688783559462,0.11099696159362793,"(2129, 40)",https
+321,CTG_Mean,Mean,"imp_null,OE,ZS,imp_null,dup_null,out_null,OLS",9.373130888195227,0.0900111198425293,"(2129, 40)",https
+322,CTG_Mean,Mean,"imp_null,OE,ZS,imp_null,dup_null,out_null,RF_REG",5.477209882352942,3.4881045818328857,"(2129, 40)",https
+323,CTG_Mean,Mean,"imp_null,OE,ZS,imp_null,dup_null,out_null,LASSO",9.191327564059948,0.1300508975982666,"(2129, 40)",https
+324,CTG_Mean,Mean,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,OLS",10.649572975578225,0.15204668045043945,"(2129, 40)",https
+325,CTG_Mean,Mean,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,RF_REG",6.79516188235294,3.4181158542633057,"(2129, 40)",https
+326,CTG_Mean,Mean,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,LASSO",10.708010413080164,0.25099658966064453,"(2129, 40)",https
+327,CTG_Mean,Mean,"ZS,imp_null,fea_null,imp_null,dup_null,out_null,OLS",9.308468477951498,0.1739809513092041,"(2129, 40)",https
+328,CTG_Mean,Mean,"ZS,imp_null,fea_null,imp_null,dup_null,out_null,RF_REG",6.455223004694836,2.5560073852539062,"(2129, 40)",https
+329,CTG_Mean,Mean,"ZS,imp_null,fea_null,imp_null,dup_null,out_null,LASSO",9.188722836933575,0.26600217819213867,"(2129, 40)",https
+330,CTG_Mean,Mean,"LOF,DS,fea_null,imp_null,dup_null,out_null,RF_REG",11.282038770053477,1.8262534141540527,"(2129, 40)",https
+331,Customer Segmentation,Segmentation,"LOF,OE,DS,imp_null,dup_null,out_null,OLS",1.138890344918586,0.24199604988098145,"(8068, 11)",https
+332,Customer Segmentation,Segmentation,"LOF,OE,DS,imp_null,dup_null,out_null,RF_REG",1.045415294117647,2.71799373626709,"(8068, 11)",https
+333,Customer Segmentation,Segmentation,"LOF,OE,DS,imp_null,dup_null,out_null,LASSO",1.216481788694342,0.13900136947631836,"(8068, 11)",https
+334,Customer Segmentation,Segmentation,"DROP,LOF,OE,MM,dup_null,out_null,OLS",1.0852957191025447,0.12199640274047852,"(8068, 11)",https
+335,Customer Segmentation,Segmentation,"DROP,LOF,OE,MM,dup_null,out_null,RF_REG",0.9765972889233153,1.963998556137085,"(8068, 11)",https
+336,Customer Segmentation,Segmentation,"DROP,LOF,OE,MM,dup_null,out_null,LASSO",1.1392804285270741,0.16501450538635254,"(8068, 11)",https
+337,Customer Segmentation,Segmentation,"OE,MF,ZS,imp_null,dup_null,out_null,OLS",1.1305327136944305,0.42300939559936523,"(8068, 11)",https
+338,Customer Segmentation,Segmentation,"OE,MF,ZS,imp_null,dup_null,out_null,RF_REG",1.026264622057001,2.7746994495391846,"(8068, 11)",https
+339,Customer Segmentation,Segmentation,"imp_null,MEAN,ZS,imp_null,dup_null,out_null,OLS",1.2177207877833018,0.026023149490356445,"(8068, 11)",https
+340,Customer Segmentation,Segmentation,"imp_null,MEAN,ZS,imp_null,dup_null,out_null,RF_REG",1.2348691449814124,1.423003911972046,"(8068, 11)",https
+341,customerTargeting,target,"LC,ED,LOF,imp_null,dup_null,out_null,OLS",0.5370694595393074,1.133058786392212,"(6620, 71)",https
+342,customerTargeting,target,"LC,ED,LOF,imp_null,dup_null,out_null,RF_REG",0.604650590086546,3.390077829360962,"(6620, 71)",https
+343,customerTargeting,target,"imp_null,fea_null,ZS,imp_null,dup_null,out_null,OLS",0.5318995802994451,0.7049288749694824,"(6620, 71)",https
+344,customerTargeting,target,"imp_null,fea_null,ZS,imp_null,dup_null,out_null,RF_REG",0.5325445619335347,40.094735860824585,"(6620, 71)",https
+345,customerTargeting,target,"IQR,imp_null,dup_null,dup_null,dup_null,out_null,OLS",0.5397266683483921,0.27100515365600586,"(6620, 71)",https
+346,customerTargeting,target,"IQR,imp_null,dup_null,dup_null,dup_null,out_null,RF_REG",0.5543005141388174,29.632057428359985,"(6620, 71)",https
+347,customerTargeting,target,"IQR,imp_null,dup_null,dup_null,dup_null,out_null,LASSO",0.5390048817893788,0.5079143047332764,"(6620, 71)",https
+348,customerTargeting,target,"IQR,OE,DS,imp_null,dup_null,out_null,OLS",0.5147577138135846,0.48100972175598145,"(6620, 71)",https
+349,customerTargeting,target,"IQR,OE,DS,imp_null,dup_null,out_null,RF_REG",0.515301366353544,27.21075463294983,"(6620, 71)",https
+350,customerTargeting,target,"IQR,OE,DS,imp_null,dup_null,out_null,LASSO",0.513494925947697,0.5299923419952393,"(6620, 71)",https
+351,Customertravel,ServicesOpted,"IQR,OE,imp_null,imp_null,dup_null,out_null,OLS",2.2428663259494517,0.08700132369995117,"(954, 7)",https
+352,Customertravel,ServicesOpted,"IQR,OE,imp_null,imp_null,dup_null,out_null,RF_REG",2.1719723175068846,0.5970132350921631,"(954, 7)",https
+353,Customertravel,ServicesOpted,"IQR,OE,imp_null,imp_null,dup_null,out_null,LASSO",2.2371278364412657,0.0630645751953125,"(954, 7)",https
+354,Customertravel,ServicesOpted,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",2.2622309025043217,0.046056270599365234,"(954, 7)",https
+355,Customertravel,ServicesOpted,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",2.0119270434263035,0.2324199676513672,"(954, 7)",https
+356,Customertravel,ServicesOpted,"imp_null,fea_null,OE,imp_null,dup_null,out_null,OLS",2.1239529553957763,0.014997243881225586,"(954, 7)",https
+357,Customertravel,ServicesOpted,"imp_null,fea_null,OE,imp_null,dup_null,out_null,RF_REG",2.080132456119297,0.1790003776550293,"(954, 7)",https
+358,Customertravel,ServicesOpted,"imp_null,fea_null,OE,imp_null,dup_null,out_null,LASSO",2.138305716640474,0.030003070831298828,"(954, 7)",https
+359,Customertravel,ServicesOpted,"OE,LOF,ZS,dup_null,dup_null,out_null,OLS",2.2971501338122047,0.03497791290283203,"(954, 7)",https
+360,Customertravel,ServicesOpted,"OE,LOF,ZS,dup_null,dup_null,out_null,RF_REG",2.143227134906517,0.1380162239074707,"(954, 7)",https
+361,Customertravel_Target,Target,"imp_null,fea_null,OE,imp_null,dup_null,out_null,OLS",0.11127684583540352,0.040010929107666016,"(954, 7)",https
+362,Customertravel_Target,Target,"imp_null,fea_null,OE,imp_null,dup_null,out_null,RF_REG",0.060673352003687196,0.43499112129211426,"(954, 7)",https
+363,Customertravel_Target,Target,"imp_null,fea_null,OE,imp_null,dup_null,out_null,LASSO",0.11816268574162146,0.09900736808776855,"(954, 7)",https
+364,Customertravel_Target,Target,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",0.1310028769658241,0.20400428771972656,"(954, 7)",https
+365,Customertravel_Target,Target,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",0.10507231603780204,0.5430006980895996,"(954, 7)",https
+366,Customertravel_Target,Target,"OE,LOF,ZS,dup_null,dup_null,out_null,OLS",0.16995109484387852,0.16599392890930176,"(954, 7)",https
+367,Customertravel_Target,Target,"OE,LOF,ZS,dup_null,dup_null,out_null,RF_REG",0.09474596880807018,0.48905086517333984,"(954, 7)",https
+368,Customertravel_Target,Target,"IQR,OE,imp_null,imp_null,dup_null,out_null,OLS",0.12624965232486154,0.025001049041748047,"(954, 7)",https
+369,Customertravel_Target,Target,"IQR,OE,imp_null,imp_null,dup_null,out_null,RF_REG",0.06752429761831276,0.16599106788635254,"(954, 7)",https
+370,Customertravel_Target,Target,"IQR,OE,imp_null,imp_null,dup_null,out_null,LASSO",0.12704047480214137,0.04300117492675781,"(954, 7)",https
+371,dementia_dataset,Group,"MF,OE,ED,ZS,dup_null,out_null,OLS",0.20216281865068575,0.15500211715698242,"(373, 15)",https
+372,dementia_dataset,Group,"MF,OE,ED,ZS,dup_null,out_null,RF_REG",0.1412453333333333,0.33298707008361816,"(373, 15)",https
+373,dementia_dataset,Group,"MF,OE,ED,ZS,dup_null,out_null,LASSO",0.19238043057838305,0.17301249504089355,"(373, 15)",https
+374,dementia_dataset,Group,"MEDIAN,OE,MM,dup_null,dup_null,out_null,OLS",0.23867639806567642,0.06000018119812012,"(373, 15)",https
+375,dementia_dataset,Group,"MEDIAN,OE,MM,dup_null,dup_null,out_null,RF_REG",0.183696,0.2440028190612793,"(373, 15)",https
+376,dementia_dataset,Group,"MEDIAN,OE,MM,dup_null,dup_null,out_null,LASSO",0.22460151640153578,0.07099151611328125,"(373, 15)",https
+377,dementia_dataset,Group,"MF,OE,imp_null,imp_null,dup_null,out_null,OLS",0.26469295786578634,0.06700015068054199,"(373, 15)",https
+378,dementia_dataset,Group,"MF,OE,imp_null,imp_null,dup_null,out_null,RF_REG",0.17703600000000003,0.2619912624359131,"(373, 15)",https
+379,dementia_dataset,Group,"MF,OE,imp_null,imp_null,dup_null,out_null,LASSO",0.2650685765708711,0.1159982681274414,"(373, 15)",https
+380,dementia_dataset,Group,"MEAN,DS,imp_null,imp_null,dup_null,out_null,LASSO",0.25883647334936444,0.04890918731689453,"(373, 15)",https
+381,diabetes-dataset,Outcome,"imp_null,DS,imp_null,imp_null,dup_null,out_null,OLS",0.1558324252430568,0.4550032615661621,"(2000, 9)",https
+382,diabetes-dataset,Outcome,"imp_null,DS,imp_null,imp_null,dup_null,out_null,RF_REG",0.07177399999999999,1.0299925804138184,"(2000, 9)",https
+383,diabetes-dataset,Outcome,"imp_null,DS,imp_null,imp_null,dup_null,out_null,LASSO",0.16433778149200307,0.11899948120117188,"(2000, 9)",https
+384,diabetes-dataset,Outcome,"LOF,MM,imp_null,imp_null,dup_null,out_null,OLS",0.16719974112290834,0.06806755065917969,"(2000, 9)",https
+385,diabetes-dataset,Outcome,"LOF,MM,imp_null,imp_null,dup_null,out_null,RF_REG",0.15350315186246416,0.627044677734375,"(2000, 9)",https
+386,diabetes-dataset,Outcome,"LOF,MM,imp_null,imp_null,dup_null,out_null,LASSO",0.16883842397109985,0.08696269989013672,"(2000, 9)",https
+387,diabetes-dataset,Outcome,"LOF,MM,MR,dup_null,dup_null,out_null,RF_REG",0.09891114285714285,1.5749969482421875,"(2000, 9)",https
+388,diabetes-dataset,Outcome,"LOF,MM,MR,dup_null,dup_null,out_null,LASSO",0.18855228323476764,0.14100003242492676,"(2000, 9)",https
+389,diabetes-dataset,Outcome,"LOF,ZS,LC,imp_null,dup_null,out_null,OLS",0.15967458298288675,0.4900522232055664,"(2000, 9)",https
+390,diabetes-dataset,Outcome,"LOF,ZS,LC,imp_null,dup_null,out_null,RF_REG",0.1136994285714286,0.3409457206726074,"(2000, 9)",https
+391,Drug200,Drug,"BE,ZSB,dup_null,dup_null,dup_null,out_null,OLS",1.2344013109576528,0.2120072841644287,"(200, 6)",https
+392,Drug200,Drug,"BE,ZSB,dup_null,dup_null,dup_null,out_null,RF_REG",0.2337588235294118,0.28408384323120117,"(200, 6)",https
+393,Drug200,Drug,"BE,ZSB,dup_null,dup_null,dup_null,out_null,LASSO",1.238541621311057,0.13390612602233887,"(200, 6)",https
+394,Drug200,Drug,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",1.281823403152662,0.08700299263000488,"(200, 6)",https
+395,Drug200,Drug,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",0.79148,0.23199844360351562,"(200, 6)",https
+396,Drug200,Drug,"imp_null,BE,imp_null,imp_null,dup_null,out_null,OLS",2.2809296701254484,0.07999610900878906,"(200, 6)",https
+397,Drug200,Drug,"imp_null,BE,imp_null,imp_null,dup_null,out_null,RF_REG",2.1697425,0.17798614501953125,"(200, 6)",https
+398,Drug200,Drug,"OE,ED,MM,imp_null,dup_null,out_null,OLS",1.4559118805544689,0.02500009536743164,"(200, 6)",https
+399,Drug200,Drug,"OE,ED,MM,imp_null,dup_null,out_null,RF_REG",0.68413,0.12199568748474121,"(200, 6)",https
+400,Drug200,Drug,"OE,ED,MM,imp_null,dup_null,out_null,LASSO",1.7556479195751382,0.03899860382080078,"(200, 6)",https
+401,Drug200_Na_to_K,Na_to_K,"OE,ED,MM,imp_null,dup_null,out_null,OLS",770.4596918288395,0.02493000030517578,"(200, 6)",https
+402,Drug200_Na_to_K,Na_to_K,"OE,ED,MM,imp_null,dup_null,out_null,RF_REG",1055.7103948717947,0.13500308990478516,"(200, 6)",https
+403,Drug200_Na_to_K,Na_to_K,"BE,ZSB,dup_null,dup_null,dup_null,out_null,OLS",1816.6672476953402,0.22001028060913086,"(200, 6)",https
+404,Drug200_Na_to_K,Na_to_K,"BE,ZSB,dup_null,dup_null,dup_null,out_null,RF_REG",1280.6703326648765,0.7950010299682617,"(200, 6)",https
+405,Drug200_Na_to_K,Na_to_K,"BE,ZSB,dup_null,dup_null,dup_null,out_null,LASSO",1813.4405606037315,0.8518643379211426,"(200, 6)",https
+406,Drug200_Na_to_K,Na_to_K,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",1348.993027663099,0.06299996376037598,"(200, 6)",https
+407,Drug200_Na_to_K,Na_to_K,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",961.3320244215596,0.843008279800415,"(200, 6)",https
+408,Drug200_Na_to_K,Na_to_K,"imp_null,BE,imp_null,imp_null,dup_null,out_null,OLS",733.6436636591401,0.08508920669555664,"(200, 6)",https
+409,Drug200_Na_to_K,Na_to_K,"imp_null,BE,imp_null,imp_null,dup_null,out_null,RF_REG",835.1451423194445,0.18600130081176758,"(200, 6)",https
+410,Drug200_Na_to_K,Na_to_K,"imp_null,BE,imp_null,imp_null,dup_null,out_null,LASSO",736.3346241364039,0.09591102600097656,"(200, 6)",https
+411,ECommerceShipping,ReachedonTime,"BE,ZS,imp_null,imp_null,dup_null,out_null,OLS",0.18690263612514177,1.0479984283447266,"(10999, 12)",https
+412,ECommerceShipping,ReachedonTime,"BE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",0.1881619545454545,7.469082355499268,"(10999, 12)",https
+413,ECommerceShipping,ReachedonTime,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",0.19163108825543765,0.1139833927154541,"(10999, 12)",https
+414,ECommerceShipping,ReachedonTime,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",0.1855767272727273,8.195390701293945,"(10999, 12)",https
+415,ECommerceShipping,ReachedonTime,"BE,ZSB,dup_null,dup_null,dup_null,out_null,OLS",0.19300311847830445,0.8696355819702148,"(10999, 12)",https
+416,ECommerceShipping,ReachedonTime,"BE,ZSB,dup_null,dup_null,dup_null,out_null,RF_REG",0.18696795630405097,7.013387441635132,"(10999, 12)",https
+417,ECommerceShipping,ReachedonTime,"BE,ZSB,dup_null,dup_null,dup_null,out_null,LASSO",0.19310917850014353,0.8220040798187256,"(10999, 12)",https
+418,ECommerceShipping,ReachedonTime,"OE,ED,MM,imp_null,dup_null,out_null,OLS",0.18858590852605478,0.09200620651245117,"(10999, 12)",https
+419,ECommerceShipping,ReachedonTime,"OE,ED,MM,imp_null,dup_null,out_null,RF_REG",0.18214227272727274,7.043618440628052,"(10999, 12)",https
+420,ECommerceShipping,ReachedonTime,"OE,ED,MM,imp_null,dup_null,out_null,LASSO",0.21101373370489304,0.1470029354095459,"(10999, 12)",https
+421,ECommerceShipping_Weight_in_gms,Weight_in_gms,"OE,ED,MM,imp_null,dup_null,out_null,OLS",1085098.044281874,0.16199254989624023,"(10999, 12)",https
+422,ECommerceShipping_Weight_in_gms,Weight_in_gms,"OE,ED,MM,imp_null,dup_null,out_null,RF_REG",347771.93052299996,5.806995391845703,"(10999, 12)",https
+423,ECommerceShipping_Weight_in_gms,Weight_in_gms,"BE,ZSB,dup_null,dup_null,dup_null,out_null,OLS",1107568.4088194727,0.32599449157714844,"(10999, 12)",https
+424,ECommerceShipping_Weight_in_gms,Weight_in_gms,"BE,ZSB,dup_null,dup_null,dup_null,out_null,RF_REG",375548.1144112799,8.950987100601196,"(10999, 12)",https
+425,ECommerceShipping_Weight_in_gms,Weight_in_gms,"BE,ZSB,dup_null,dup_null,dup_null,out_null,LASSO",1108239.0650487847,0.6689989566802979,"(10999, 12)",https
+426,ECommerceShipping_Weight_in_gms,Weight_in_gms,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",1040801.772117445,0.1129910945892334,"(10999, 12)",https
+427,ECommerceShipping_Weight_in_gms,Weight_in_gms,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",411013.2738632273,7.608788251876831,"(10999, 12)",https
+428,ECommerceShipping_Weight_in_gms,Weight_in_gms,"OE,ZS,imp_null,imp_null,dup_null,out_null,LASSO",5139297.064552736,0.17099642753601074,"(10999, 12)",https
+429,ECommerceShipping_Weight_in_gms,Weight_in_gms,"BE,ZS,imp_null,imp_null,dup_null,out_null,OLS",1122720.4224500863,0.24692535400390625,"(10999, 12)",https
+430,ECommerceShipping_Weight_in_gms,Weight_in_gms,"BE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",429253.35193345457,6.25785231590271,"(10999, 12)",https
+431,ECommerceShipping_Discount_offered,Discount_offered,"BE,ZS,imp_null,imp_null,dup_null,out_null,OLS",151.4756643353807,0.8979978561401367,"(10999, 12)",https
+432,ECommerceShipping_Discount_offered,Discount_offered,"BE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",118.5263035,9.77919626235962,"(10999, 12)",https
+433,ECommerceShipping_Discount_offered,Discount_offered,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",146.9445422464582,0.10799670219421387,"(10999, 12)",https
+434,ECommerceShipping_Discount_offered,Discount_offered,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",109.70875368181817,9.431228876113892,"(10999, 12)",https
+435,ECommerceShipping_Discount_offered,Discount_offered,"BE,ZSB,dup_null,dup_null,dup_null,out_null,OLS",144.21622270413457,0.42098307609558105,"(10999, 12)",https
+436,ECommerceShipping_Discount_offered,Discount_offered,"BE,ZSB,dup_null,dup_null,dup_null,out_null,RF_REG",107.00399179580674,8.197537183761597,"(10999, 12)",https
+437,ECommerceShipping_Discount_offered,Discount_offered,"BE,ZSB,dup_null,dup_null,dup_null,out_null,LASSO",144.20220233298627,0.3300144672393799,"(10999, 12)",https
+438,ECommerceShipping_Discount_offered,Discount_offered,"OE,ED,MM,imp_null,dup_null,out_null,OLS",161.0778947213142,0.07899236679077148,"(10999, 12)",https
+439,ECommerceShipping_Discount_offered,Discount_offered,"OE,ED,MM,imp_null,dup_null,out_null,RF_REG",116.03439881818183,6.041182518005371,"(10999, 12)",https
+440,ECommerceShipping_Discount_offered,Discount_offered,"OE,ED,MM,imp_null,dup_null,out_null,LASSO",188.99366260917355,0.08701658248901367,"(10999, 12)",https
+441,ECommerceShipping_Customer_rating,Customer_rating,"OE,ED,MM,imp_null,dup_null,out_null,OLS",2.026192843604322,0.0830085277557373,"(10999, 12)",https
+442,ECommerceShipping_Customer_rating,Customer_rating,"OE,ED,MM,imp_null,dup_null,out_null,RF_REG",2.0919255,11.608165740966797,"(10999, 12)",https
+443,ECommerceShipping_Customer_rating,Customer_rating,"OE,ED,MM,imp_null,dup_null,out_null,LASSO",2.1423116333020866,0.22900938987731934,"(10999, 12)",https
+444,ECommerceShipping_Customer_rating,Customer_rating,"BE,ZSB,dup_null,dup_null,dup_null,out_null,OLS",1.948041441946548,0.39600276947021484,"(10999, 12)",https
+445,ECommerceShipping_Customer_rating,Customer_rating,"BE,ZSB,dup_null,dup_null,dup_null,out_null,RF_REG",2.035956472196901,12.210144519805908,"(10999, 12)",https
+446,ECommerceShipping_Customer_rating,Customer_rating,"BE,ZSB,dup_null,dup_null,dup_null,out_null,LASSO",1.9483122186689366,0.5230278968811035,"(10999, 12)",https
+447,ECommerceShipping_Customer_rating,Customer_rating,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",2.0351744571568395,0.15599918365478516,"(10999, 12)",https
+448,ECommerceShipping_Customer_rating,Customer_rating,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",2.1176937272727274,8.917641639709473,"(10999, 12)",https
+449,ECommerceShipping_Customer_rating,Customer_rating,"BE,ZS,imp_null,imp_null,dup_null,out_null,OLS",2.0135716891309245,0.42499613761901855,"(10999, 12)",https
+450,ECommerceShipping_Customer_rating,Customer_rating,"BE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",2.0773834090909093,6.971132040023804,"(10999, 12)",https
+451,Employee Satisfaction Index,satisfied,"IQR,OE,ZS,imp_null,dup_null,out_null,OLS",0.2521228965417488,0.45700573921203613,"(500, 14)",https
+452,Employee Satisfaction Index,satisfied,"IQR,OE,ZS,imp_null,dup_null,out_null,RF_REG",0.26839399999999997,0.8530881404876709,"(500, 14)",https
+453,Employee Satisfaction Index,satisfied,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",0.2606097409888829,0.056081533432006836,"(500, 14)",https
+454,Employee Satisfaction Index,satisfied,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",0.26602899999999996,0.7909228801727295,"(500, 14)",https
+455,Employee Satisfaction Index,satisfied,"OE,ZSB,dup_null,dup_null,dup_null,out_null,OLS",0.2977551704638638,0.32698535919189453,"(500, 14)",https
+456,Employee Satisfaction Index,satisfied,"OE,ZSB,dup_null,dup_null,dup_null,out_null,RF_REG",0.28543999999999997,0.7750012874603271,"(500, 14)",https
+457,Employee Satisfaction Index,satisfied,"OE,ZSB,dup_null,dup_null,dup_null,out_null,LASSO",0.2437965912891335,0.15199756622314453,"(500, 14)",https
+458,Employee Satisfaction Index,satisfied,"AD,IQR,OE,imp_null,dup_null,out_null,OLS",0.2741429561588389,6.481003284454346,"(500, 14)",https
+459,Employee Satisfaction Index,satisfied,"AD,IQR,OE,imp_null,dup_null,out_null,RF_REG",0.28866500000000006,0.4320640563964844,"(500, 14)",https
+460,Employee Satisfaction Index,satisfied,"AD,IQR,OE,imp_null,dup_null,out_null,LASSO",0.24838739932897805,0.13591909408569336,"(500, 14)",https
+461,Employee Satisfaction Index_job_level,job_level,"AD,IQR,OE,imp_null,dup_null,out_null,OLS",0.08020809574648967,11.746100425720215,"(500, 14)",https
+462,Employee Satisfaction Index_job_level,job_level,"AD,IQR,OE,imp_null,dup_null,out_null,LASSO",0.15813468069886716,0.5260040760040283,"(500, 14)",https
+463,Employee Satisfaction Index_job_level,job_level,"OE,ZSB,dup_null,dup_null,dup_null,out_null,OLS",0.0887319104893988,0.24601173400878906,"(500, 14)",https
+464,Employee Satisfaction Index_job_level,job_level,"OE,ZSB,dup_null,dup_null,dup_null,out_null,LASSO",0.12717772687548445,0.19800233840942383,"(500, 14)",https
+465,Employee Satisfaction Index_job_level,job_level,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",0.17634959686769316,0.21199822425842285,"(500, 14)",https
+466,Employee Satisfaction Index_job_level,job_level,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",0.19,0.556002140045166,"(500, 14)",https
+467,Employee Satisfaction Index_job_level,job_level,"IQR,OE,ZS,imp_null,dup_null,out_null,OLS",0.100964026794843,0.16700267791748047,"(500, 14)",https
+468,Employee Satisfaction Index_job_level,job_level,"IQR,OE,ZS,imp_null,dup_null,out_null,LASSO",4.838522830311539,0.11301422119140625,"(500, 14)",https
+469,Employee Satisfaction Index_job_level,job_level,"IQR,OE,MM,imp_null,dup_null,out_null,OLS",0.180964026794843,0.16700267791748047,"(500, 14)",https
+470,Employee Satisfaction Index_job_level,job_level,"IQR,OE,DS,imp_null,dup_null,out_null,LASSO",5.038522830311539,0.11301422119140625,"(500, 14)",https
+471,Employee Satisfaction Index_rating,rating,"IQR,OE,ZS,imp_null,dup_null,out_null,OLS",2.2738779451978615,0.04098391532897949,"(500, 14)",https
+472,Employee Satisfaction Index_rating,rating,"IQR,OE,ZS,imp_null,dup_null,out_null,RF_REG",2.411753,0.23001503944396973,"(500, 14)",https
+473,Employee Satisfaction Index_rating,rating,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",2.1748837659980773,0.034040212631225586,"(500, 14)",https
+474,Employee Satisfaction Index_rating,rating,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",2.313933,0.21489191055297852,"(500, 14)",https
+475,Employee Satisfaction Index_rating,rating,"OE,ZSB,dup_null,dup_null,dup_null,out_null,OLS",2.1126668479401456,0.12900018692016602,"(500, 14)",https
+476,Employee Satisfaction Index_rating,rating,"OE,ZSB,dup_null,dup_null,dup_null,out_null,RF_REG",1.9881550000000001,0.6209957599639893,"(500, 14)",https
+477,Employee Satisfaction Index_rating,rating,"OE,ZSB,dup_null,dup_null,dup_null,out_null,LASSO",2.3615222815782184,0.25400471687316895,"(500, 14)",https
+478,Employee Satisfaction Index_rating,rating,"AD,IQR,OE,imp_null,dup_null,out_null,OLS",2.106945299921234,11.214019298553467,"(500, 14)",https
+479,Employee Satisfaction Index_rating,rating,"AD,IQR,OE,imp_null,dup_null,out_null,RF_REG",2.0958660000000005,1.488008975982666,"(500, 14)",https
+480,Employee Satisfaction Index_rating,rating,"AD,IQR,OE,imp_null,dup_null,out_null,LASSO",2.233963348722702,0.3639988899230957,"(500, 14)",https
+481,Employee Satisfaction Index_salary,salary,"OE,ZSB,dup_null,dup_null,dup_null,out_null,OLS",0.010054497926902348,0.0780019760131836,"(500, 14)",https
+482,Employee Satisfaction Index_salary,salary,"OE,ZSB,dup_null,dup_null,dup_null,out_null,LASSO",0.08000813994248539,0.16368460655212402,"(500, 14)",https
+483,Employee Satisfaction Index_salary,salary,"AD,IQR,OE,imp_null,dup_null,out_null,OLS",0.010129798860314374,9.678001880645752,"(500, 14)",https
+484,Employee Satisfaction Index_salary,salary,"AD,IQR,OE,imp_null,dup_null,out_null,LASSO",0.08821638152514782,0.2549152374267578,"(500, 14)",https
+485,Employee Satisfaction Index_salary,salary,"IQR,OE,ZS,imp_null,dup_null,out_null,OLS",0.010810138979429687,0.05108070373535156,"(500, 14)",https
+486,Employee Satisfaction Index_salary,salary,"IQR,OE,MM,imp_null,dup_null,out_null,LASSO",4.6967327472201035,0.0570065975189209,"(500, 14)",https
+487,Employee Satisfaction Index_salary,salary,"OE,LOF,dup_null,dup_null,dup_null,out_null,OLS",0.014054497926902348,0.0780019760131836,"(500, 14)",https
+488,Employee Satisfaction Index_salary,salary,"OE,LOF,dup_null,dup_null,dup_null,out_null,LASSO",0.18000813994248539,0.16368460655212402,"(500, 14)",https
+489,Employee Satisfaction Index_salary,salary,"ED,IQR,OE,imp_null,dup_null,out_null,OLS",0.012129798860314374,9.678001880645752,"(500, 14)",https
+490,Employee Satisfaction Index_salary,salary,"ED,IQR,OE,imp_null,dup_null,out_null,LASSO",0.18821638152514782,0.2549152374267578,"(500, 14)",https
+491,employee_attrition_train,Attrition,"OE,MR,imp_null,imp_null,dup_null,out_null,OLS",0.1365736106470595,0.03901338577270508,"(1029, 35)",https
+492,employee_attrition_train,Attrition,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",0.10146254894712964,0.34900450706481934,"(1029, 35)",https
+493,employee_attrition_train,Attrition,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",0.10944444444444446,1.0230088233947754,"(1029, 35)",https
+494,employee_attrition_train,Attrition,"OE,ZS,imp_null,imp_null,dup_null,out_null,LASSO",0.09569011091858756,0.12898659706115723,"(1029, 35)",https
+495,employee_attrition_train,Attrition,"OE,ZS,MR,dup_null,dup_null,out_null,OLS",0.1113501919130071,0.22800207138061523,"(1029, 35)",https
+496,employee_attrition_train,Attrition,"OE,ZS,MR,dup_null,dup_null,out_null,RF_REG",0.12726774193548385,0.82999587059021,"(1029, 35)",https
+497,employee_attrition_train,Attrition,"OE,ZS,MR,dup_null,dup_null,out_null,LASSO",0.11577451781369738,0.15099883079528809,"(1029, 35)",https
+498,employee_attrition_train,Attrition,"imp_null,IQR,OE,MM,dup_null,out_null,OLS",0.12484411503177043,0.11221814155578613,"(1029, 35)",https
+499,employee_attrition_train,Attrition,"imp_null,IQR,OE,MM,dup_null,out_null,RF_REG",0.11755156249999998,0.5492556095123291,"(1029, 35)",https
+500,employee_attrition_train,Attrition,"imp_null,IQR,OE,MM,dup_null,out_null,LASSO",0.12110922437836832,0.08901095390319824,"(1029, 35)",https
+501,employee_attrition_YearsAtCompany,YearsAtCompany,"imp_null,IQR,OE,MM,dup_null,out_null,OLS",5.206192212712841,0.2689194679260254,"(1029, 35)",https
+502,employee_attrition_YearsAtCompany,YearsAtCompany,"imp_null,IQR,OE,MM,dup_null,out_null,RF_REG",2.679511811023622,1.4740936756134033,"(1029, 35)",https
+503,employee_attrition_YearsAtCompany,YearsAtCompany,"imp_null,IQR,OE,MM,dup_null,out_null,LASSO",5.1620202256191,0.22300314903259277,"(1029, 35)",https
+504,employee_attrition_YearsAtCompany,YearsAtCompany,"OE,ZS,MR,dup_null,dup_null,out_null,OLS",14.778937242014297,0.08293366432189941,"(1029, 35)",https
+505,employee_attrition_YearsAtCompany,YearsAtCompany,"OE,ZS,MR,dup_null,dup_null,out_null,RF_REG",4.22875987654321,1.8270070552825928,"(1029, 35)",https
+506,employee_attrition_YearsAtCompany,YearsAtCompany,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",10.56054337600597,0.07799935340881348,"(1029, 35)",https
+507,employee_attrition_YearsAtCompany,YearsAtCompany,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",5.4220805555555565,0.4990105628967285,"(1029, 35)",https
+508,employee_attrition_YearsAtCompany,YearsAtCompany,"OE,ZS,imp_null,imp_null,dup_null,out_null,LASSO",10.7432076843296,0.08800196647644043,"(1029, 35)",https
+509,employee_attrition_YearsAtCompany,YearsAtCompany,"OE,MR,imp_null,imp_null,dup_null,out_null,RF_REG",13.058651948051947,0.4300360679626465,"(1029, 35)",https
+510,employee_attrition_YearsAtCompany,YearsAtCompany,"OE,MR,imp_null,imp_null,dup_null,out_null,LASSO",15.010162863116813,0.10896420478820801,"(1029, 35)",https
+511,employee_attrition_MonthlyIncome,MonthlyIncome,"OE,MR,imp_null,imp_null,dup_null,out_null,RF_REG",11852.653318954248,1.9609990119934082,"(1029, 35)",https
+512,employee_attrition_MonthlyIncome,MonthlyIncome,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",12917.81242379274,0.10100817680358887,"(1029, 35)",https
+513,employee_attrition_MonthlyIncome,MonthlyIncome,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",10148.490975816992,1.9110009670257568,"(1029, 35)",https
+514,employee_attrition_MonthlyIncome,MonthlyIncome,"OE,ZS,imp_null,imp_null,dup_null,out_null,LASSO",12868.938584490706,0.46900153160095215,"(1029, 35)",https
+515,employee_attrition_MonthlyIncome,MonthlyIncome,"OE,ZS,MR,dup_null,dup_null,out_null,OLS",16536.331672499135,0.24299883842468262,"(1029, 35)",https
+516,employee_attrition_MonthlyIncome,MonthlyIncome,"OE,ZS,MR,dup_null,dup_null,out_null,RF_REG",11342.38386,1.4918010234832764,"(1029, 35)",https
+517,employee_attrition_MonthlyIncome,MonthlyIncome,"OE,ZS,MR,dup_null,dup_null,out_null,LASSO",16170.073466387323,0.19699716567993164,"(1029, 35)",https
+518,employee_attrition_MonthlyIncome,MonthlyIncome,"imp_null,IQR,OE,MM,dup_null,out_null,OLS",16977.942106764607,0.0740194320678711,"(1029, 35)",https
+519,employee_attrition_MonthlyIncome,MonthlyIncome,"imp_null,IQR,OE,MM,dup_null,out_null,RF_REG",13503.847343076925,0.6329882144927979,"(1029, 35)",https
+520,employee_attrition_MonthlyIncome,MonthlyIncome,"imp_null,IQR,OE,MM,dup_null,out_null,LASSO",17181.235017926196,0.09500980377197266,"(1029, 35)",https
+521,employee_attrition_HourlyRate,HourlyRate,"imp_null,IQR,OE,MM,dup_null,out_null,OLS",447.39109313241437,0.44200658798217773,"(1029, 35)",https
+522,employee_attrition_HourlyRate,HourlyRate,"imp_null,IQR,OE,MM,dup_null,out_null,RF_REG",421.8392722627737,1.1979913711547852,"(1029, 35)",https
+523,employee_attrition_HourlyRate,HourlyRate,"imp_null,IQR,OE,MM,dup_null,out_null,LASSO",441.67439308286794,0.15200281143188477,"(1029, 35)",https
+524,employee_attrition_HourlyRate,HourlyRate,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",453.1875866202583,0.33799052238464355,"(1029, 35)",https
+525,employee_attrition_HourlyRate,HourlyRate,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",449.6655969512195,1.0729963779449463,"(1029, 35)",https
+526,employee_attrition_HourlyRate,HourlyRate,"OE,ZS,imp_null,imp_null,dup_null,out_null,LASSO",442.7935714024472,0.1410079002380371,"(1029, 35)",https
+527,employee_attrition_HourlyRate,HourlyRate,"OE,MR,imp_null,imp_null,dup_null,out_null,RF_REG",471.4669781456954,1.988013744354248,"(1029, 35)",https
+528,employee_attrition_HourlyRate,HourlyRate,"OE,MR,imp_null,imp_null,dup_null,out_null,OLS",436.99856860988683,0.08500862121582031,"(1029, 35)",https
+529,employee_attrition_HourlyRate,HourlyRate,"OE,MR,imp_null,imp_null,dup_null,out_null,RF_REG",422.9970208860759,1.0569937229156494,"(1029, 35)",https
+530,employee_attrition_HourlyRate,HourlyRate,"OE,MR,imp_null,imp_null,dup_null,out_null,LASSO",429.21933407104893,0.20300030708312988,"(1029, 35)",https
+531,employee_attrition_YearsWithCurrManager,YearsWithCurrManager,"OE,MR,imp_null,imp_null,dup_null,out_null,RF_REG",4.401816875,1.3109993934631348,"(1029, 35)",https
+532,employee_attrition_YearsWithCurrManager,YearsWithCurrManager,"OE,MR,imp_null,imp_null,dup_null,out_null,LASSO",5.529877427554044,0.16699910163879395,"(1029, 35)",https
+533,employee_attrition_YearsWithCurrManager,YearsWithCurrManager,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",5.253167277126504,0.6189961433410645,"(1029, 35)",https
+534,employee_attrition_YearsWithCurrManager,YearsWithCurrManager,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",5.204524203821657,0.9800896644592285,"(1029, 35)",https
+535,employee_attrition_YearsWithCurrManager,YearsWithCurrManager,"OE,ZS,imp_null,imp_null,dup_null,out_null,LASSO",4.943201887261515,0.11090397834777832,"(1029, 35)",https
+536,employee_attrition_YearsWithCurrManager,YearsWithCurrManager,"OE,ZS,MR,dup_null,dup_null,out_null,RF_REG",3.9107986928104577,0.5200693607330322,"(1029, 35)",https
+537,employee_attrition_YearsWithCurrManager,YearsWithCurrManager,"OE,ZS,MR,dup_null,dup_null,out_null,LASSO",4.675341002950894,0.4199228286743164,"(1029, 35)",https
+538,employee_attrition_YearsWithCurrManager,YearsWithCurrManager,"imp_null,IQR,OE,MM,dup_null,out_null,OLS",2.8526000394048294,0.055931806564331055,"(1029, 35)",https
+539,employee_attrition_YearsWithCurrManager,YearsWithCurrManager,"imp_null,IQR,OE,MM,dup_null,out_null,RF_REG",3.1071398437499997,0.38103771209716797,"(1029, 35)",https
+540,employee_attrition_YearsWithCurrManager,YearsWithCurrManager,"imp_null,IQR,OE,MM,dup_null,out_null,LASSO",2.642084782134098,0.08397102355957031,"(1029, 35)",https
+541,FIC,Mortality,"ZS,imp_null,imp_null,imp_null,dup_null,out_null,OLS",0.10649060434302848,0.31400585174560547,"(368, 60)",https
+542,FIC,Mortality,"ZS,imp_null,imp_null,imp_null,dup_null,out_null,RF_REG",0.041578378378378376,0.6080179214477539,"(368, 60)",https
+543,FIC,Mortality,"ZS,imp_null,imp_null,imp_null,dup_null,out_null,LASSO",0.14610331927217202,0.19798517227172852,"(368, 60)",https
+544,FIC,Mortality,"LOF,ZS,imp_null,dup_null,dup_null,out_null,RF_REG",0.099675,0.9659881591796875,"(368, 60)",https
+545,FIC,Mortality,"LOF,ZS,imp_null,dup_null,dup_null,out_null,LASSO",0.10599531785219063,0.5489988327026367,"(368, 60)",https
+546,FIC,Mortality,"imp_null,IQR,OE,MM,dup_null,out_null,RF_REG",0.04746285714285714,0.17992210388183594,"(368, 60)",https
+547,FIC,Mortality,"imp_null,IQR,OE,MM,dup_null,out_null,LASSO",0.25675647416584063,0.08799457550048828,"(368, 60)",https
+548,FIC,Mortality,"OE,imp_null,imp_null,imp_null,dup_null,out_null,OLS",0.206791359306792,0.043000221252441406,"(368, 60)",https
+549,FIC,Mortality,"OE,imp_null,imp_null,imp_null,dup_null,out_null,RF_REG",0.014714864864864865,0.18900012969970703,"(368, 60)",https
+550,FIC,Mortality,"OE,imp_null,imp_null,imp_null,dup_null,out_null,LASSO",0.13340563098863523,0.16300106048583984,"(368, 60)",https
+551,FIC_Follow,Follow.Up,"OE,imp_null,imp_null,imp_null,dup_null,out_null,OLS",14.734264985863234,0.3769974708557129,"(368, 60)",https
+552,FIC_Follow,Follow.Up,"OE,imp_null,imp_null,imp_null,dup_null,out_null,RF_REG",5.942408108108109,0.8519971370697021,"(368, 60)",https
+553,FIC_Follow,Follow.Up,"OE,imp_null,imp_null,imp_null,dup_null,out_null,LASSO",10.903260512281845,1.0050020217895508,"(368, 60)",https
+554,FIC_Follow,Follow.Up,"ZS,imp_null,imp_null,imp_null,dup_null,out_null,OLS",19.667821984287745,0.24800705909729004,"(368, 60)",https
+555,FIC_Follow,Follow.Up,"ZS,imp_null,imp_null,imp_null,dup_null,out_null,RF_REG",17.269841891891893,1.5449864864349365,"(368, 60)",https
+556,FIC_Follow,Follow.Up,"imp_null,IQR,OE,MM,dup_null,out_null,OLS",52.61615751440527,0.10699939727783203,"(368, 60)",https
+557,FIC_Follow,Follow.Up,"imp_null,IQR,OE,MM,dup_null,out_null,RF_REG",7.83723611111111,0.277010440826416,"(368, 60)",https
+558,FIC_Follow,Follow.Up,"imp_null,IQR,OE,MM,dup_null,out_null,LASSO",4.126639524290703,0.17899012565612793,"(368, 60)",https
+559,FIC_Follow,Follow.Up,"IQR,ZS,imp_null,dup_null,dup_null,out_null,OLS",27.81678126852178,0.14001107215881348,"(368, 60)",https
+560,FIC_Follow,Follow.Up,"IQR,ZS,imp_null,dup_null,dup_null,out_null,RF_REG",18.26314193548387,0.3289926052093506,"(368, 60)",https
+561,FIC_num,num,"ZS,imp_null,imp_null,imp_null,dup_null,out_null,OLS",0.660255395840703,0.28598737716674805,"(368, 60)",https
+562,FIC_num,num,"ZS,imp_null,imp_null,imp_null,dup_null,out_null,RF_REG",0.4011743243243243,1.3050050735473633,"(368, 60)",https
+563,FIC_num,num,"ZS,imp_null,imp_null,imp_null,dup_null,out_null,LASSO",1.7552192231025268,0.2019965648651123,"(368, 60)",https
+564,FIC_num,num,"OE,imp_null,imp_null,imp_null,dup_null,out_null,OLS",1.0504088873604562,0.1789994239807129,"(368, 60)",https
+565,FIC_num,num,"OE,imp_null,imp_null,imp_null,dup_null,out_null,RF_REG",0.31294459459459456,0.6250481605529785,"(368, 60)",https
+566,FIC_num,num,"OE,imp_null,imp_null,imp_null,dup_null,out_null,LASSO",0.6552128459012398,0.3549532890319824,"(368, 60)",https
+567,FIC_num,num,"IQR,ZS,imp_null,dup_null,dup_null,out_null,RF_REG",0.2887542857142857,0.6860017776489258,"(368, 60)",https
+568,FIC_num,num,"IQR,ZS,imp_null,dup_null,dup_null,out_null,LASSO",1.4372848261277684,0.21198701858520508,"(368, 60)",https
+569,FIC_num,num,"imp_null,IQR,OE,MM,dup_null,out_null,RF_REG",0.5237209302325582,0.18300151824951172,"(368, 60)",https
+570,FIC_num,num,"imp_null,IQR,OE,MM,dup_null,out_null,LASSO",0.6829911039727004,0.10107612609863281,"(368, 60)",https
+571,FIC_BGR,BGR,"imp_null,IQR,OE,MM,dup_null,out_null,RF_REG",46.65330416666668,0.23600029945373535,"(368, 60)",https
+572,FIC_BGR,BGR,"imp_null,IQR,OE,MM,dup_null,out_null,LASSO",161.78991071516552,0.33400487899780273,"(368, 60)",https
+573,FIC_BGR,BGR,"OE,imp_null,imp_null,imp_null,dup_null,out_null,OLS",28.934941918797946,0.2559938430786133,"(368, 60)",https
+574,FIC_BGR,BGR,"OE,imp_null,imp_null,imp_null,dup_null,out_null,RF_REG",7.9426189189189165,0.5620105266571045,"(368, 60)",https
+575,FIC_BGR,BGR,"OE,imp_null,imp_null,imp_null,dup_null,out_null,LASSO",33.26403370983768,0.5199832916259766,"(368, 60)",https
+576,FIC_BGR,BGR,"ZS,imp_null,imp_null,imp_null,dup_null,out_null,OLS",60.73512311029624,0.08100128173828125,"(368, 60)",https
+577,FIC_BGR,BGR,"ZS,imp_null,imp_null,imp_null,dup_null,out_null,RF_REG",18.664333783783785,0.2641119956970215,"(368, 60)",https
+578,FIC_BGR,BGR,"ZS,imp_null,imp_null,imp_null,dup_null,out_null,LASSO",402.5114246446212,0.14999818801879883,"(368, 60)",https
+579,FIC_BGR,BGR,"IQR,ZS,imp_null,dup_null,dup_null,out_null,OLS",23.88822078731098,0.09705567359924316,"(368, 60)",https
+580,FIC_BGR,BGR,"IQR,ZS,imp_null,dup_null,dup_null,out_null,RF_REG",13.839414285714282,0.22005295753479004,"(368, 60)",https
+581,Go To College,will_go_to_college,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",0.1292292035939385,0.034996986389160156,"(1000, 11)",https
+582,Go To College,will_go_to_college,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",0.098688,0.4419848918914795,"(1000, 11)",https
+583,Go To College,will_go_to_college,"ED,OE,ZS,imp_null,dup_null,out_null,OLS",0.14930037736934385,0.059998512268066406,"(1000, 11)",https
+584,Go To College,will_go_to_college,"ED,OE,ZS,imp_null,dup_null,out_null,RF_REG",0.10861549999999999,0.39899706840515137,"(1000, 11)",https
+585,Go To College,will_go_to_college,"IQR,ZS,imp_null,dup_null,dup_null,out_null,OLS",0.12351138568225178,0.04499387741088867,"(1000, 11)",https
+586,Go To College,will_go_to_college,"IQR,ZS,imp_null,dup_null,dup_null,out_null,RF_REG",0.10457777777777778,0.30699944496154785,"(1000, 11)",https
+587,Go To College,will_go_to_college,"IQR,ZS,imp_null,dup_null,dup_null,out_null,LASSO",0.3601707214698977,0.0670173168182373,"(1000, 11)",https
+588,Go To College,will_go_to_college,"OE,IQR,ZS,dup_null,dup_null,out_null,OLS",0.133524609265091,0.06700825691223145,"(1000, 11)",https
+589,Go To College,will_go_to_college,"OE,IQR,ZS,dup_null,dup_null,out_null,RF_REG",0.11835364583333334,0.3069911003112793,"(1000, 11)",https
+590,Go To College,will_go_to_college,"OE,IQR,ZS,dup_null,dup_null,out_null,LASSO",0.36146061053228573,0.06900334358215332,"(1000, 11)",https
+591,Go To College_average_grades,average_grades,"OE,IQR,ZS,dup_null,dup_null,out_null,OLS",22621.303205996537,0.2330007553100586,"(1000, 11)",https
+592,Go To College_average_grades,average_grades,"OE,IQR,ZS,dup_null,dup_null,out_null,RF_REG",18166.315012060302,1.0900053977966309,"(1000, 11)",https
+593,Go To College_average_grades,average_grades,"OE,IQR,ZS,dup_null,dup_null,out_null,LASSO",129095.2378676877,0.1179966926574707,"(1000, 11)",https
+594,Go To College_average_grades,average_grades,"IQR,ZS,imp_null,dup_null,dup_null,out_null,OLS",25948.322807877455,0.04699373245239258,"(1000, 11)",https
+595,Go To College_average_grades,average_grades,"IQR,ZS,imp_null,dup_null,dup_null,out_null,RF_REG",28969.270294240836,0.5609936714172363,"(1000, 11)",https
+596,Go To College_average_grades,average_grades,"IQR,ZS,imp_null,dup_null,dup_null,out_null,LASSO",130620.97515201112,0.09101176261901855,"(1000, 11)",https
+597,Go To College_average_grades,average_grades,"ED,OE,ZS,imp_null,dup_null,out_null,OLS",28234.2026299352,0.05699968338012695,"(1000, 11)",https
+598,Go To College_average_grades,average_grades,"ED,OE,ZS,imp_null,dup_null,out_null,RF_REG",23763.274817000005,0.4250047206878662,"(1000, 11)",https
+599,Go To College_average_grades,average_grades,"OE,ZS,imp_null,imp_null,dup_null,out_null,OLS",27486.45873963709,0.031003952026367188,"(1000, 11)",https
+600,Go To College_average_grades,average_grades,"OE,ZS,imp_null,imp_null,dup_null,out_null,RF_REG",23290.388849,0.49099159240722656,"(1000, 11)",https
+601,googleplaystore_reviews,Sentiment,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,OLS",0.3028233935041633,0.24298834800720215,"(64295, 5)",https
+602,googleplaystore_reviews,Sentiment,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,RF_REG",0.1546370627503338,2.584374189376831,"(64295, 5)",https
+603,googleplaystore_reviews,Sentiment,"MEDIAN,OE,ZS,imp_null,dup_null,out_null,LASSO",1.3367026453674826,0.9760000705718994,"(64295, 5)",https
+604,googleplaystore_reviews,Sentiment,"OE,MF,ZS,imp_null,dup_null,out_null,OLS",0.4717950984674163,0.950002908706665,"(64295, 5)",https
+605,googleplaystore_reviews,Sentiment,"OE,MF,ZS,imp_null,dup_null,out_null,RF_REG",0.5048626953884439,6.295999050140381,"(64295, 5)",https
+606,googleplaystore_reviews,Sentiment,"IQR,MF,ZS,dup_null,dup_null,out_null,OLS",0.5129291540983026,0.29800868034362793,"(64295, 5)",https
+607,googleplaystore_reviews,Sentiment,"IQR,MF,ZS,dup_null,dup_null,out_null,RF_REG",0.2381900592470159,1.9770584106445312,"(64295, 5)",https
+608,googleplaystore_reviews,Sentiment,"IQR,MF,ZS,dup_null,dup_null,out_null,LASSO",4.841988912654927,0.24492979049682617,"(64295, 5)",https
+609,googleplaystore_reviews,Sentiment,"OE,MEAN,IQR,ZS,dup_null,out_null,OLS",0.40641815591074587,0.446002721786499,"(64295, 5)",https
+610,googleplaystore_reviews,Sentiment,"OE,MEAN,IQR,ZS,dup_null,out_null,RF_REG",0.015628680562626736,4.725543022155762,"(64295, 5)",https
+611,Heart Attack Data Set,target,"imp_null,imp_null,ZS,imp_null,dup_null,out_null,OLS",0.1388487251512598,0.028933048248291016,"(303, 14)",https
+612,Heart Attack Data Set,target,"imp_null,imp_null,ZS,imp_null,dup_null,out_null,RF_REG",0.1311393442622951,0.13000130653381348,"(303, 14)",https
+613,Heart Attack Data Set,target,"imp_null,imp_null,ZS,imp_null,dup_null,out_null,LASSO",0.42018353939150394,0.03606605529785156,"(303, 14)",https
+614,Heart Attack Data Set,target,"IQR,ZS,dup_null,dup_null,dup_null,out_null,OLS",0.13665575731186935,0.04593300819396973,"(303, 14)",https
+615,Heart Attack Data Set,target,"IQR,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",0.1292245283018868,0.16699767112731934,"(303, 14)",https
+616,Heart Attack Data Set,target,"LC,ZS,dup_null,dup_null,dup_null,out_null,OLS",0.1382247105827647,0.5269784927368164,"(303, 14)",https
+617,Heart Attack Data Set,target,"LC,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",0.13512622950819672,0.16100215911865234,"(303, 14)",https
+618,Heart Attack Data Set,target,"LC,ZS,dup_null,dup_null,dup_null,out_null,LASSO",0.48708211256235995,0.05499887466430664,"(303, 14)",https
+619,Heart Attack Data Set,target,"imp_null,imp_null,LOF,dup_null,out_null,out_null,OLS",0.13986411096494672,0.019083261489868164,"(303, 14)",https
+620,Heart Attack Data Set,target,"imp_null,imp_null,LOF,dup_null,out_null,out_null,LASSO",0.16847698071748687,0.05304741859436035,"(303, 14)",https
+621,Heart Attack Data Set_thalach,thalach,"imp_null,imp_null,ZS,imp_null,dup_null,out_null,OLS",254.66342665668634,0.13199567794799805,"(303, 14)",https
+622,Heart Attack Data Set_thalach,thalach,"imp_null,imp_null,ZS,imp_null,dup_null,out_null,RF_REG",238.28393442622948,0.3620116710662842,"(303, 14)",https
+623,Heart Attack Data Set_thalach,thalach,"imp_null,imp_null,LOF,dup_null,out_null,out_null,OLS",251.85378935482476,0.08900809288024902,"(303, 14)",https
+624,Heart Attack Data Set_thalach,thalach,"imp_null,imp_null,LOF,dup_null,out_null,out_null,RF_REG",331.7854818181818,0.41107726097106934,"(303, 14)",https
+625,Heart Attack Data Set_thalach,thalach,"imp_null,imp_null,LOF,dup_null,out_null,out_null,LASSO",281.8783954015613,0.07291913032531738,"(303, 14)",https
+626,Heart Attack Data Set_thalach,thalach,"IQR,ZS,dup_null,dup_null,dup_null,out_null,OLS",297.1829331367571,0.23299598693847656,"(303, 14)",https
+627,Heart Attack Data Set_thalach,thalach,"IQR,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",291.55593,0.6103577613830566,"(303, 14)",https
+628,Heart Attack Data Set_thalach,thalach,"IQR,ZS,dup_null,dup_null,dup_null,out_null,LASSO",2427.0288516637947,0.2091813087463379,"(303, 14)",https
+629,Heart Attack Data Set_thalach,thalach,"LC,ZS,dup_null,dup_null,dup_null,out_null,OLS",414.718688050218,1.8070340156555176,"(303, 14)",https
+630,Heart Attack Data Set_thalach,thalach,"LC,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",374.8957770491803,0.9769940376281738,"(303, 14)",https
+631,Heart Attack Data Set_trestbps,trestbps,"LC,ZS,dup_null,dup_null,dup_null,out_null,OLS",128.17053837016434,0.7519922256469727,"(303, 14)",https
+632,Heart Attack Data Set_trestbps,trestbps,"LC,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",122.18791639344262,0.24599623680114746,"(303, 14)",https
+633,Heart Attack Data Set_trestbps,trestbps,"LC,ZS,dup_null,dup_null,dup_null,out_null,LASSO",556.1719974580064,0.07201337814331055,"(303, 14)",https
+634,Heart Attack Data Set_trestbps,trestbps,"IQR,ZS,dup_null,dup_null,dup_null,out_null,OLS",128.40022056378297,0.08307480812072754,"(303, 14)",https
+635,Heart Attack Data Set_trestbps,trestbps,"IQR,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",129.52940714285714,0.3769083023071289,"(303, 14)",https
+636,Heart Attack Data Set_trestbps,trestbps,"imp_null,imp_null,LOF,dup_null,out_null,out_null,OLS",126.03931405427475,0.0789954662322998,"(303, 14)",https
+637,Heart Attack Data Set_trestbps,trestbps,"imp_null,imp_null,LOF,dup_null,out_null,out_null,RF_REG",93.68149090909091,0.4520106315612793,"(303, 14)",https
+638,Heart Attack Data Set_trestbps,trestbps,"imp_null,imp_null,LOF,dup_null,out_null,out_null,LASSO",134.215837002816,0.1849956512451172,"(303, 14)",https
+639,Heart Attack Data Set_trestbps,trestbps,"imp_null,imp_null,ZS,imp_null,dup_null,out_null,OLS",99.1011047164891,0.028992414474487305,"(303, 14)",https
+640,Heart Attack Data Set_trestbps,trestbps,"imp_null,imp_null,ZS,imp_null,dup_null,out_null,RF_REG",96.04632786885246,0.17100048065185547,"(303, 14)",https
+641,Heart Attack Data Set_chol,chol,"imp_null,imp_null,ZS,imp_null,dup_null,out_null,OLS",1666.1598919962585,0.27700114250183105,"(303, 14)",https
+642,Heart Attack Data Set_chol,chol,"imp_null,imp_null,ZS,imp_null,dup_null,out_null,RF_REG",1667.1602049180326,0.5869996547698975,"(303, 14)",https
+643,Heart Attack Data Set_chol,chol,"imp_null,imp_null,LOF,dup_null,out_null,out_null,OLS",763.2494380885095,0.03400158882141113,"(303, 14)",https
+644,Heart Attack Data Set_chol,chol,"imp_null,imp_null,LOF,dup_null,out_null,out_null,RF_REG",684.5928181818181,0.6550033092498779,"(303, 14)",https
+645,Heart Attack Data Set_chol,chol,"imp_null,imp_null,LOF,dup_null,out_null,out_null,LASSO",789.3925985410824,0.17800402641296387,"(303, 14)",https
+646,Heart Attack Data Set_chol,chol,"IQR,ZS,dup_null,dup_null,dup_null,out_null,OLS",1503.28306384124,0.13599777221679688,"(303, 14)",https
+647,Heart Attack Data Set_chol,chol,"IQR,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",1606.9966206896552,0.3359990119934082,"(303, 14)",https
+648,Heart Attack Data Set_chol,chol,"IQR,ZS,dup_null,dup_null,dup_null,out_null,LASSO",6356.121372542736,0.0980062484741211,"(303, 14)",https
+649,Heart Attack Data Set_chol,chol,"LC,ZS,dup_null,dup_null,dup_null,out_null,OLS",1447.2825730254715,0.5626258850097656,"(303, 14)",https
+650,Heart Attack Data Set_chol,chol,"LC,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",1823.6010655737707,0.207000732421875,"(303, 14)",https
+651,Heart Attack Data Set_oldpeak,oldpeak,"LC,ZS,dup_null,dup_null,dup_null,out_null,OLS",71.35399951353442,1.617004156112671,"(303, 14)",https
+652,Heart Attack Data Set_oldpeak,oldpeak,"LC,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",74.94376393442626,0.578012228012085,"(303, 14)",https
+653,Heart Attack Data Set_oldpeak,oldpeak,"IQR,ZS,dup_null,dup_null,dup_null,out_null,OLS",77.39800473693785,0.03707432746887207,"(303, 14)",https
+654,Heart Attack Data Set_oldpeak,oldpeak,"IQR,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",86.73612459016394,0.16992497444152832,"(303, 14)",https
+655,Heart Attack Data Set_oldpeak,oldpeak,"IQR,ZS,dup_null,dup_null,dup_null,out_null,LASSO",177.36944017372682,0.08900260925292969,"(303, 14)",https
+656,Heart Attack Data Set_oldpeak,oldpeak,"imp_null,imp_null,LOF,dup_null,out_null,out_null,OLS",72.29943048810675,0.11900472640991211,"(303, 14)",https
+657,Heart Attack Data Set_oldpeak,oldpeak,"imp_null,imp_null,LOF,dup_null,out_null,out_null,RF_REG",55.51197272727273,0.531005859375,"(303, 14)",https
+658,Heart Attack Data Set_oldpeak,oldpeak,"imp_null,imp_null,LOF,dup_null,out_null,out_null,LASSO",73.51585849484087,0.13699674606323242,"(303, 14)",https
+659,Heart Attack Data Set_oldpeak,oldpeak,"imp_null,imp_null,ZS,imp_null,dup_null,out_null,OLS",70.13213369294795,0.04503369331359863,"(303, 14)",https
+660,Heart Attack Data Set_oldpeak,oldpeak,"imp_null,imp_null,ZS,imp_null,dup_null,out_null,RF_REG",76.02937049180328,0.20196104049682617,"(303, 14)",https
+661,Heart,HeartDisease,"ZS,BE,imp_null,imp_null,dup_null,out_null,OLS",0.14111015118846817,0.19655084609985352,"(918, 12)",https
+662,Heart,HeartDisease,"ZS,BE,imp_null,imp_null,dup_null,out_null,RF_REG",0.12119619565217392,0.46299219131469727,"(918, 12)",https
+663,Heart,HeartDisease,"ZS,BE,imp_null,imp_null,dup_null,out_null,LASSO",0.1378025569602911,0.18600749969482422,"(918, 12)",https
+664,Heart,HeartDisease,"OE,DS,imp_null,dup_null,out_null,out_null,OLS",0.13349345177435556,0.02800130844116211,"(918, 12)",https
+665,Heart,HeartDisease,"OE,DS,imp_null,dup_null,out_null,out_null,RF_REG",0.13168641304347825,0.8320021629333496,"(918, 12)",https
+666,Heart,HeartDisease,"OE,DS,imp_null,dup_null,out_null,out_null,LASSO",0.1491669956688525,0.10700392723083496,"(918, 12)",https
+667,Heart,HeartDisease,"LC,ZS,FE,dup_null,dup_null,out_null,RF_REG",0.1200054347826087,0.40700697898864746,"(918, 12)",https
+668,Heart,HeartDisease,"LC,ZS,FE,dup_null,dup_null,out_null,LASSO",0.2041059757640453,0.09000802040100098,"(918, 12)",https
+669,Heart,HeartDisease,"IQR,OE,MM,dup_null,dup_null,out_null,OLS",0.1051178481314853,0.03601384162902832,"(918, 12)",https
+670,Heart,HeartDisease,"IQR,OE,MM,dup_null,dup_null,out_null,RF_REG",0.10807398843930638,0.2507517337799072,"(918, 12)",https
+671,Heart_RestingBP,RestingBP,"IQR,OE,MM,dup_null,dup_null,out_null,OLS",195.83050624544524,0.03699922561645508,"(918, 12)",https
+672,Heart_RestingBP,RestingBP,"IQR,OE,MM,dup_null,dup_null,out_null,RF_REG",204.44785056818182,0.33499670028686523,"(918, 12)",https
+673,Heart_RestingBP,RestingBP,"IQR,OE,MM,dup_null,dup_null,out_null,LASSO",198.7129871472768,0.05399942398071289,"(918, 12)",https
+674,Heart_RestingBP,RestingBP,"OE,DS,imp_null,dup_null,out_null,out_null,OLS",215.36337688368548,0.06199955940246582,"(918, 12)",https
+675,Heart_RestingBP,RestingBP,"OE,DS,imp_null,dup_null,out_null,out_null,RF_REG",231.9337244565218,1.419004201889038,"(918, 12)",https
+676,Heart_RestingBP,RestingBP,"OE,DS,imp_null,dup_null,out_null,out_null,LASSO",226.07515040075185,0.16001367568969727,"(918, 12)",https
+677,Heart_RestingBP,RestingBP,"ZS,BE,imp_null,imp_null,dup_null,out_null,OLS",168.94937993211587,0.11799979209899902,"(918, 12)",https
+678,Heart_RestingBP,RestingBP,"ZS,BE,imp_null,imp_null,dup_null,out_null,RF_REG",191.2500081521739,0.4400789737701416,"(918, 12)",https
+679,Heart_RestingBP,RestingBP,"ZS,BE,imp_null,imp_null,dup_null,out_null,LASSO",169.72967193755196,0.15393781661987305,"(918, 12)",https
+680,Heart_RestingBP,RestingBP,"LC,ZS,FE,dup_null,dup_null,out_null,OLS",184.69186099616917,1.0319981575012207,"(918, 12)",https
+681,Heart_MaxHR,MaxHR,"ZS,BE,imp_null,imp_null,dup_null,out_null,OLS",442.0254559970838,0.2749903202056885,"(918, 12)",https
+682,Heart_MaxHR,MaxHR,"ZS,BE,imp_null,imp_null,dup_null,out_null,RF_REG",468.81387173913043,0.6970016956329346,"(918, 12)",https
+683,Heart_MaxHR,MaxHR,"ZS,BE,imp_null,imp_null,dup_null,out_null,LASSO",455.00701377235924,0.1700119972229004,"(918, 12)",https
+684,Heart_MaxHR,MaxHR,"OE,DS,imp_null,dup_null,out_null,out_null,OLS",418.9497535686243,0.13000178337097168,"(918, 12)",https
+685,Heart_MaxHR,MaxHR,"OE,DS,imp_null,dup_null,out_null,out_null,RF_REG",419.0758472826087,1.09208345413208,"(918, 12)",https
+686,Heart_MaxHR,MaxHR,"OE,DS,imp_null,dup_null,out_null,out_null,LASSO",544.8625379164937,0.07691645622253418,"(918, 12)",https
+687,Heart_MaxHR,MaxHR,"LC,ZS,FE,dup_null,dup_null,out_null,OLS",618.0618091349372,0.7649915218353271,"(918, 12)",https
+688,Heart_MaxHR,MaxHR,"LC,ZS,FE,dup_null,dup_null,out_null,RF_REG",671.160475,0.4409911632537842,"(918, 12)",https
+689,Heart_MaxHR,MaxHR,"IQR,OE,MM,dup_null,dup_null,out_null,OLS",365.2458987479073,0.03799629211425781,"(918, 12)",https
+690,Heart_MaxHR,MaxHR,"IQR,OE,MM,dup_null,dup_null,out_null,RF_REG",510.71742947976884,0.30206823348999023,"(918, 12)",https
+691,Heart_Cholesterol,Cholesterol,"IQR,OE,MM,dup_null,dup_null,out_null,OLS",3530.8423245397,0.03900289535522461,"(918, 12)",https
+692,Heart_Cholesterol,Cholesterol,"IQR,OE,MM,dup_null,dup_null,out_null,RF_REG",3418.5135134078214,0.3339996337890625,"(918, 12)",https
+693,Heart_Cholesterol,Cholesterol,"IQR,OE,MM,dup_null,dup_null,out_null,LASSO",3972.347466066729,0.05107569694519043,"(918, 12)",https
+694,Heart_Cholesterol,Cholesterol,"LC,ZS,FE,dup_null,dup_null,out_null,OLS",4011.1078637251694,0.751007080078125,"(918, 12)",https
+695,Heart_Cholesterol,Cholesterol,"OE,DS,imp_null,dup_null,out_null,out_null,OLS",3110.0097226855605,0.05800819396972656,"(918, 12)",https
+696,Heart_Cholesterol,Cholesterol,"OE,DS,imp_null,dup_null,out_null,out_null,RF_REG",3356.493377173913,0.6149909496307373,"(918, 12)",https
+697,Heart_Cholesterol,Cholesterol,"OE,DS,imp_null,dup_null,out_null,out_null,LASSO",3297.6812495372615,0.12900185585021973,"(918, 12)",https
+698,Heart_Cholesterol,Cholesterol,"ZS,BE,imp_null,imp_null,dup_null,out_null,OLS",3272.9601070506924,0.12591791152954102,"(918, 12)",https
+699,Heart_Cholesterol,Cholesterol,"ZS,BE,imp_null,imp_null,dup_null,out_null,RF_REG",3804.277934782608,0.447068452835083,"(918, 12)",https
+700,Heart_Cholesterol,Cholesterol,"ZS,BE,imp_null,imp_null,dup_null,out_null,LASSO",3174.4175422433477,0.13594341278076172,"(918, 12)",https
+701,Heart_Oldpeak,Oldpeak,"ZS,BE,imp_null,imp_null,dup_null,out_null,OLS",83.95000106679205,0.7280023097991943,"(918, 12)",https
+702,Heart_Oldpeak,Oldpeak,"ZS,BE,imp_null,imp_null,dup_null,out_null,RF_REG",89.95156847826087,1.343993902206421,"(918, 12)",https
+703,Heart_Oldpeak,Oldpeak,"ZS,BE,imp_null,imp_null,dup_null,out_null,LASSO",84.05093706070082,0.4730110168457031,"(918, 12)",https
+704,Heart_Oldpeak,Oldpeak,"OE,DS,imp_null,dup_null,out_null,out_null,OLS",70.05690944192209,0.04499411582946777,"(918, 12)",https
+705,Heart_Oldpeak,Oldpeak,"OE,DS,imp_null,dup_null,out_null,out_null,RF_REG",73.90827391304347,0.4270017147064209,"(918, 12)",https
+706,Heart_Oldpeak,Oldpeak,"OE,DS,imp_null,dup_null,out_null,out_null,LASSO",77.91703848452768,0.06199836730957031,"(918, 12)",https
+707,Heart_Oldpeak,Oldpeak,"LC,ZS,FE,dup_null,dup_null,out_null,LASSO",110.23017822479206,0.09000992774963379,"(918, 12)",https
+708,Heart_Oldpeak,Oldpeak,"IQR,OE,MM,dup_null,dup_null,out_null,OLS",77.11396540217373,0.031003952026367188,"(918, 12)",https
+709,Heart_Oldpeak,Oldpeak,"IQR,OE,MM,dup_null,dup_null,out_null,RF_REG",79.82932356321838,0.2729964256286621,"(918, 12)",https
+710,Heart_Oldpeak,Oldpeak,"IQR,OE,MM,dup_null,dup_null,out_null,LASSO",85.40404044664672,0.05508613586425781,"(918, 12)",https
+711,heart_Disease_Oldpeak,oldpeak,"IQR,OE,MM,dup_null,dup_null,out_null,OLS",68.927587226098,0.031002044677734375,"(303, 14)",https
+712,heart_Disease_Oldpeak,oldpeak,"IQR,OE,MM,dup_null,dup_null,out_null,RF_REG",72.1291142857143,0.19699764251708984,"(303, 14)",https
+713,heart_Disease_Oldpeak,oldpeak,"IQR,OE,MM,dup_null,dup_null,out_null,LASSO",71.63301863024917,0.05000185966491699,"(303, 14)",https
+714,heart_Disease_Oldpeak,oldpeak,"LC,ZS,FE,dup_null,dup_null,out_null,OLS",110.97299890892867,0.7510020732879639,"(303, 14)",https
+715,heart_Disease_Oldpeak,oldpeak,"LC,ZS,FE,dup_null,dup_null,out_null,RF_REG",121.23009508196719,0.29799938201904297,"(303, 14)",https
+716,heart_Disease_Oldpeak,oldpeak,"OE,DS,imp_null,dup_null,out_null,out_null,OLS",54.43129513647389,0.057990074157714844,"(303, 14)",https
+717,heart_Disease_Oldpeak,oldpeak,"OE,DS,imp_null,dup_null,out_null,out_null,RF_REG",57.67291639344263,0.3099968433380127,"(303, 14)",https
+718,heart_Disease_Oldpeak,oldpeak,"OE,DS,imp_null,dup_null,out_null,out_null,LASSO",64.30846204623059,0.08099961280822754,"(303, 14)",https
+719,heart_Disease_Oldpeak,oldpeak,"ZS,BE,imp_null,imp_null,dup_null,out_null,OLS",59.871115304485656,0.04999494552612305,"(303, 14)",https
+720,heart_Disease_Oldpeak,oldpeak,"ZS,BE,imp_null,imp_null,dup_null,out_null,RF_REG",69.31988688524591,0.2120041847229004,"(303, 14)",https
+721,heart_Disease_chol,chol,"ZS,BE,imp_null,imp_null,dup_null,out_null,OLS",1783.951412021792,0.041999101638793945,"(303, 14)",https
+722,heart_Disease_chol,chol,"ZS,BE,imp_null,imp_null,dup_null,out_null,RF_REG",1830.9886508196719,0.1719954013824463,"(303, 14)",https
+723,heart_Disease_chol,chol,"OE,DS,imp_null,dup_null,out_null,out_null,OLS",1550.1842332254992,0.05700039863586426,"(303, 14)",https
+724,heart_Disease_chol,chol,"OE,DS,imp_null,dup_null,out_null,out_null,RF_REG",1500.166731147541,0.3180720806121826,"(303, 14)",https
+725,heart_Disease_chol,chol,"OE,DS,imp_null,dup_null,out_null,out_null,LASSO",1733.0903646581023,0.054007768630981445,"(303, 14)",https
+726,heart_Disease_chol,chol,"LC,ZS,FE,dup_null,dup_null,out_null,OLS",1596.7830433314941,2.0839991569519043,"(303, 14)",https
+727,heart_Disease_chol,chol,"LC,ZS,FE,dup_null,dup_null,out_null,RF_REG",1414.2089314959017,0.3245713710784912,"(303, 14)",https
+728,heart_Disease_chol,chol,"IQR,OE,MM,dup_null,dup_null,out_null,OLS",1564.6986663273321,0.03500056266784668,"(303, 14)",https
+729,heart_Disease_chol,chol,"IQR,OE,MM,dup_null,dup_null,out_null,RF_REG",1497.5310152542372,0.18100452423095703,"(303, 14)",https
+730,heart_Disease_chol,chol,"IQR,OE,MM,dup_null,dup_null,out_null,LASSO",1681.124344604819,0.05147361755371094,"(303, 14)",https
+731,heart_Disease_thalach,thalach,"LC,ZS,FE,dup_null,dup_null,out_null,OLS",461.95803367104924,0.465069055557251,"(303, 14)",https
+732,heart_Disease_thalach,thalach,"LC,ZS,FE,dup_null,dup_null,out_null,RF_REG",530.8000295081968,0.21797418594360352,"(303, 14)",https
+733,heart_Disease_thalach,thalach,"IQR,OE,MM,dup_null,dup_null,out_null,OLS",259.09381757342004,0.11900067329406738,"(303, 14)",https
+734,heart_Disease_thalach,thalach,"IQR,OE,MM,dup_null,dup_null,out_null,RF_REG",210.12757894736845,0.6000072956085205,"(303, 14)",https
+735,heart_Disease_thalach,thalach,"IQR,OE,MM,dup_null,dup_null,out_null,LASSO",326.0400690064645,0.22798490524291992,"(303, 14)",https
+736,heart_Disease_thalach,thalach,"OE,DS,imp_null,dup_null,out_null,out_null,OLS",441.39599173234427,0.05099081993103027,"(303, 14)",https
+737,heart_Disease_thalach,thalach,"OE,DS,imp_null,dup_null,out_null,out_null,RF_REG",425.96823114754096,0.29500603675842285,"(303, 14)",https
+738,heart_Disease_thalach,thalach,"OE,DS,imp_null,dup_null,out_null,out_null,LASSO",531.4749019004681,0.05900859832763672,"(303, 14)",https
+739,heart_Disease_thalach,thalach,"ZS,BE,imp_null,imp_null,dup_null,out_null,OLS",341.88428194206887,0.0429990291595459,"(303, 14)",https
+740,heart_Disease_thalach,thalach,"ZS,BE,imp_null,imp_null,dup_null,out_null,RF_REG",349.8439409836065,0.16900038719177246,"(303, 14)",https
+741,heart_Disease,target,"ZS,BE,imp_null,imp_null,dup_null,out_null,OLS",0.14303043833244186,0.04307913780212402,"(303, 14)",https
+742,heart_Disease,target,"ZS,BE,imp_null,imp_null,dup_null,out_null,RF_REG",0.13835245901639343,0.13851451873779297,"(303, 14)",https
+743,heart_Disease,target,"OE,DS,imp_null,dup_null,out_null,out_null,OLS",0.08179921019731325,0.07800054550170898,"(303, 14)",https
+744,heart_Disease,target,"OE,DS,imp_null,dup_null,out_null,out_null,RF_REG",0.09745409836065574,0.31500697135925293,"(303, 14)",https
+745,heart_Disease,target,"OE,DS,imp_null,dup_null,out_null,out_null,LASSO",0.0935393604671631,0.08798742294311523,"(303, 14)",https
+746,heart_Disease,target,"LC,ZS,FE,dup_null,dup_null,out_null,OLS",0.14676396183120627,1.3199951648712158,"(303, 14)",https
+747,heart_Disease,target,"LC,ZS,FE,dup_null,dup_null,out_null,RF_REG",0.14841311475409838,0.2730112075805664,"(303, 14)",https
+748,heart_Disease,target,"IQR,OE,MM,dup_null,dup_null,out_null,OLS",0.196558975252474,0.03598904609680176,"(303, 14)",https
+749,heart_Disease,target,"IQR,OE,MM,dup_null,dup_null,out_null,RF_REG",0.15905762711864405,0.16493558883666992,"(303, 14)",https
+750,heart_Disease,target,"IQR,OE,MM,dup_null,dup_null,out_null,LASSO",0.22656954047802272,0.052994728088378906,"(303, 14)",https
+751,hmeq,BAD,"OE,MEDIAN,IQR,dup_null,dup_null,out_null,RF_REG",0.09687234762979685,1.0180797576904297,"(5652, 13)",https
+752,hmeq,BAD,"OE,MEDIAN,IQR,dup_null,dup_null,out_null,LASSO",0.12226537762650538,0.06593465805053711,"(5652, 13)",https
+753,hmeq,BAD,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,OLS",0.12488445027670304,0.05098152160644531,"(5652, 13)",https
+754,hmeq,BAD,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,RF_REG",0.10044655674102813,1.7060177326202393,"(5652, 13)",https
+755,hmeq,BAD,"MEAN,OE,imp_null,dup_null,out_null,out_null,OLS",0.1152674389784051,0.023021459579467773,"(5652, 13)",https
+756,hmeq,BAD,"MEAN,OE,imp_null,dup_null,out_null,out_null,RF_REG",0.07312807835820895,1.7829804420471191,"(5652, 13)",https
+757,hmeq,BAD,"MEAN,OE,imp_null,dup_null,out_null,out_null,LASSO",0.11562040699133004,0.045017242431640625,"(5652, 13)",https
+758,hmeq,BAD,"MF,imp_null,imp_null,imp_null,dup_null,out_null,OLS",0.10854781936166596,0.023011445999145508,"(5652, 13)",https
+759,hmeq,BAD,"MF,imp_null,imp_null,imp_null,dup_null,out_null,RF_REG",0.08871308576480989,1.6509838104248047,"(5652, 13)",https
+760,hmeq,BAD,"MF,imp_null,imp_null,imp_null,dup_null,out_null,LASSO",0.10850512230785977,0.04399824142456055,"(5652, 13)",https
+761,hmeq_CLNO,CLNO,"MF,imp_null,imp_null,imp_null,dup_null,out_null,OLS",86.26604777608566,0.02093195915222168,"(5652, 13)",https
+762,hmeq_CLNO,CLNO,"MF,imp_null,imp_null,imp_null,dup_null,out_null,RF_REG",42.46444535809019,1.8199801445007324,"(5652, 13)",https
+763,hmeq_CLNO,CLNO,"MEAN,OE,imp_null,dup_null,out_null,out_null,OLS",81.99264667458395,0.024014949798583984,"(5652, 13)",https
+764,hmeq_CLNO,CLNO,"MEAN,OE,imp_null,dup_null,out_null,out_null,RF_REG",27.770854562211976,2.3280630111694336,"(5652, 13)",https
+765,hmeq_CLNO,CLNO,"MEAN,OE,imp_null,dup_null,out_null,out_null,LASSO",81.68575528031332,0.053919076919555664,"(5652, 13)",https
+766,hmeq_CLNO,CLNO,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,OLS",85.27633118056369,0.0639958381652832,"(5652, 13)",https
+767,hmeq_CLNO,CLNO,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,RF_REG",31.348581880509304,2.3430745601654053,"(5652, 13)",https
+768,hmeq_CLNO,CLNO,"OE,MEDIAN,IQR,dup_null,dup_null,out_null,OLS",74.20599172114628,0.03394198417663574,"(5652, 13)",https
+769,hmeq_CLNO,CLNO,"OE,MEDIAN,IQR,dup_null,dup_null,out_null,RF_REG",26.5736876276958,1.1600065231323242,"(5652, 13)",https
+770,hmeq_CLNO,CLNO,"OE,MEDIAN,IQR,dup_null,dup_null,out_null,LASSO",74.37233076338536,0.05698108673095703,"(5652, 13)",https
+771,hmeq_CLAGE,CLAGE,"OE,MEDIAN,IQR,dup_null,dup_null,out_null,RF_REG",566414.6560420814,1.7280802726745605,"(5652, 13)",https
+772,hmeq_CLAGE,CLAGE,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,RF_REG",678920.6649333333,1.8650527000427246,"(5652, 13)",https
+773,hmeq_CLAGE,CLAGE,"MEAN,OE,imp_null,dup_null,out_null,out_null,RF_REG",468438.81356140354,1.523728370666504,"(5652, 13)",https
+774,hmeq_CLAGE,CLAGE,"MF,imp_null,imp_null,imp_null,dup_null,out_null,RF_REG",694265.555712909,1.4600191116333008,"(5652, 13)",https
+775,hmeq_CLAGE,CLAGE,"MF,BE,imp_null,imp_null,dup_null,out_null,RF_REG",834072.7527341291,1.6519124507904053,"(5652, 13)",https
+776,hmeq_CLAGE,CLAGE,"MF,OE,imp_null,imp_null,dup_null,out_null,RF_REG",688586.0350918656,1.58707594871521,"(5652, 13)",https
+777,hmeq_CLAGE,CLAGE,"MF,LOF,imp_null,imp_null,dup_null,out_null,RF_REG",658680.8827644773,1.9079980850219727,"(5652, 13)",https
+777,hmeq_CLAGE,CLAGE,"MF,LOF,ZS,imp_null,dup_null,out_null,RF_REG",801788.8167142461,1.4789958000183105,"(5652, 13)",https
+778,hmeq_CLAGE,CLAGE,"MF,OE,ZS,imp_null,dup_null,out_null,RF_REG",647876.4799093723,1.5969812870025635,"(5652, 13)",https
+780,hmeq_CLAGE,CLAGE,"MF,BE,DS,imp_null,dup_null,out_null,RF_REG",730850.1530819628,1.6709997653961182,"(5652, 13)",https
+781,HR Analysis Case Study,is_promoted,"MF,LC,DS,imp_null,dup_null,out_null,OLS",0.07040496000455872,0.38900160789489746,"(54808, 14)",https
+782,HR Analysis Case Study,is_promoted,"MF,LC,DS,imp_null,dup_null,out_null,RF_REG",0.07421979565772668,7.278517246246338,"(54808, 14)",https
+783,HR Analysis Case Study,is_promoted,"MF,LC,DS,imp_null,dup_null,out_null,LASSO",0.07063686030105196,0.17800068855285645,"(54808, 14)",https
+784,HR Analysis Case Study,is_promoted,"MEAN,OE,ZS,dup_null,out_null,out_null,OLS",0.06959636968359854,0.12801671028137207,"(54808, 14)",https
+785,HR Analysis Case Study,is_promoted,"MEAN,OE,ZS,dup_null,out_null,out_null,RF_REG",0.05225946281781686,10.086339712142944,"(54808, 14)",https
+786,HR Analysis Case Study,is_promoted,"MEAN,OE,ZS,dup_null,out_null,out_null,LASSO",0.07673742189752564,0.31292223930358887,"(54808, 14)",https
+787,HR Analysis Case Study,is_promoted,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,OLS",0.06933852675192775,0.3659977912902832,"(54808, 14)",https
+788,HR Analysis Case Study,is_promoted,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,RF_REG",0.06967375791291003,10.118980169296265,"(54808, 14)",https
+789,HR Analysis Case Study,is_promoted,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,LASSO",0.06997151608641998,0.648876428604126,"(54808, 14)",https
+790,HR Analysis Case Study,is_promoted,"OE,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",0.05471450240852722,9.259941339492798,"(54808, 14)",https
+791,HR Analysis Case Study_length_of_service,length_of_service,"OE,ZS,dup_null,dup_null,dup_null,out_null,OLS",10.70064616257702,0.11000633239746094,"(54808, 14)",https
+792,HR Analysis Case Study_length_of_service,length_of_service,"OE,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",11.277206407346265,12.642694473266602,"(54808, 14)",https
+793,HR Analysis Case Study_length_of_service,length_of_service,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,OLS",10.28465499650614,0.3049938678741455,"(54808, 14)",https
+794,HR Analysis Case Study_length_of_service,length_of_service,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,RF_REG",11.336419048076,12.183980226516724,"(54808, 14)",https
+795,HR Analysis Case Study_length_of_service,length_of_service,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,LASSO",11.161799985290306,0.5638315677642822,"(54808, 14)",https
+796,HR Analysis Case Study_length_of_service,length_of_service,"MEAN,OE,ZS,dup_null,out_null,out_null,OLS",10.071950583390121,0.12400484085083008,"(54808, 14)",https
+797,HR Analysis Case Study_length_of_service,length_of_service,"MEAN,OE,ZS,dup_null,out_null,out_null,RF_REG",10.518392666857634,14.420995712280273,"(54808, 14)",https
+798,HR Analysis Case Study_length_of_service,length_of_service,"MF,LC,DS,imp_null,dup_null,out_null,OLS",24.992247049327595,0.5690028667449951,"(54808, 14)",https
+799,HR Analysis Case Study_length_of_service,length_of_service,"MF,LC,DS,imp_null,dup_null,out_null,RF_REG",26.38176592775041,12.816666841506958,"(54808, 14)",https
+800,HR Analysis Case Study_length_of_service,length_of_service,"MF,LC,DS,imp_null,dup_null,out_null,LASSO",25.00387831517458,0.25501370429992676,"(54808, 14)",https
+801,HR Analysis Case Study_KPIs,KPIs_met >80%,"MF,LC,DS,imp_null,dup_null,out_null,OLS",0.19038081952944327,0.38110804557800293,"(54808, 14)",https
+802,HR Analysis Case Study_KPIs,KPIs_met >80%,"MF,LC,DS,imp_null,dup_null,out_null,RF_REG",0.2073969622331691,8.26493525505066,"(54808, 14)",https
+803,HR Analysis Case Study_KPIs,KPIs_met >80%,"MF,LC,DS,imp_null,dup_null,out_null,LASSO",0.190919477267415,0.3099846839904785,"(54808, 14)",https
+804,HR Analysis Case Study_KPIs,KPIs_met >80%,"MEAN,OE,ZS,dup_null,out_null,out_null,OLS",0.1926042070912492,0.14099645614624023,"(54808, 14)",https
+805,HR Analysis Case Study_KPIs,KPIs_met >80%,"MEAN,OE,ZS,dup_null,out_null,out_null,RF_REG",0.1838964888846484,15.572581768035889,"(54808, 14)",https
+806,HR Analysis Case Study_KPIs,KPIs_met >80%,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,OLS",0.1928952675467443,0.825000524520874,"(54808, 14)",https
+807,HR Analysis Case Study_KPIs,KPIs_met >80%,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,RF_REG",0.2003396049098581,13.373658895492554,"(54808, 14)",https
+808,HR Analysis Case Study_KPIs,KPIs_met >80%,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,LASSO",0.19320119819354103,0.6459228992462158,"(54808, 14)",https
+809,HR Analysis Case Study_KPIs,KPIs_met >80%,"OE,ZS,dup_null,dup_null,dup_null,out_null,OLS",0.190539239304686,0.15398764610290527,"(54808, 14)",https
+810,HR Analysis Case Study_KPIs,KPIs_met >80%,"OE,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",0.18116652559867877,14.058191537857056,"(54808, 14)",https
+811,HR Analysis Case Study_awards,awards_won?,"OE,ZS,dup_null,dup_null,dup_null,out_null,OLS",0.024500510702138458,0.10801529884338379,"(54808, 14)",https
+812,HR Analysis Case Study_awards,awards_won?,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,OLS",0.021957135472172044,0.7170028686523438,"(54808, 14)",https
+813,HR Analysis Case Study_awards,awards_won?,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,RF_REG",0.023710573407735233,8.088996887207031,"(54808, 14)",https
+814,HR Analysis Case Study_awards,awards_won?,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,LASSO",0.022007413641074412,1.1400022506713867,"(54808, 14)",https
+815,HR Analysis Case Study_awards,awards_won?,"MEAN,OE,ZS,dup_null,out_null,out_null,OLS",0.022796804731062527,0.14799857139587402,"(54808, 14)",https
+816,HR Analysis Case Study_awards,awards_won?,"MEAN,OE,ZS,dup_null,out_null,out_null,RF_REG",0.024288729566963006,10.751013040542603,"(54808, 14)",https
+817,HR Analysis Case Study_awards,awards_won?,"MEAN,OE,ZS,dup_null,out_null,out_null,LASSO",0.023413813473432958,0.2519996166229248,"(54808, 14)",https
+818,HR Analysis Case Study_awards,awards_won?,"MF,LC,DS,imp_null,dup_null,out_null,OLS",0.02082391655413117,0.508000373840332,"(54808, 14)",https
+819,HR Analysis Case Study_awards,awards_won?,"MF,LC,DS,imp_null,dup_null,out_null,RF_REG",0.022820133187374563,7.139513731002808,"(54808, 14)",https
+820,HR Analysis Case Study_awards,awards_won?,"MF,LC,DS,imp_null,dup_null,out_null,LASSO",0.0208489374385932,0.16500186920166016,"(54808, 14)",https
+821,HR Analysis Case Study_avg_training_score,avg_training_score,"MF,LC,DS,imp_null,dup_null,out_null,OLS",169.13736146256286,0.4650101661682129,"(54808, 14)",https
+822,HR Analysis Case Study_avg_training_score,avg_training_score,"MF,LC,DS,imp_null,dup_null,out_null,RF_REG",207.99517245940524,9.080007553100586,"(54808, 14)",https
+823,HR Analysis Case Study_avg_training_score,avg_training_score,"MF,LC,DS,imp_null,dup_null,out_null,LASSO",223.1796376438933,0.19299793243408203,"(54808, 14)",https
+824,HR Analysis Case Study_avg_training_score,avg_training_score,"MEAN,OE,ZS,dup_null,out_null,out_null,OLS",158.9992855677771,0.4029877185821533,"(54808, 14)",https
+825,HR Analysis Case Study_avg_training_score,avg_training_score,"MEAN,OE,ZS,dup_null,out_null,out_null,RF_REG",16.403518351418235,18.805996656417847,"(54808, 14)",https
+826,HR Analysis Case Study_avg_training_score,avg_training_score,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,OLS",170.0596919812181,0.3869969844818115,"(54808, 14)",https
+827,HR Analysis Case Study_avg_training_score,avg_training_score,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,RF_REG",187.29943271977757,14.626075744628906,"(54808, 14)",https
+828,HR Analysis Case Study_avg_training_score,avg_training_score,"MEDIAN,LOF,dup_null,dup_null,dup_null,out_null,LASSO",182.74285450213875,0.6519265174865723,"(54808, 14)",https
+829,HR Analysis Case Study_avg_training_score,avg_training_score,"OE,ZS,dup_null,dup_null,dup_null,out_null,OLS",160.54089902661562,0.16408514976501465,"(54808, 14)",https
+830,HR Analysis Case Study_avg_training_score,avg_training_score,"OE,ZS,dup_null,dup_null,dup_null,out_null,RF_REG",16.868243062544927,16.211931943893433,"(54808, 14)",https
+831,HR Analytics Employee Promotion Data,is_promoted,"OE,MEAN,dup_null,dup_null,dup_null,out_null,OLS",0.07649890907876009,0.09301400184631348,"(54808, 13)",https
+832,HR Analytics Employee Promotion Data,is_promoted,"OE,MEAN,dup_null,dup_null,dup_null,out_null,RF_REG",0.06036679438058748,10.803020238876343,"(54808, 13)",https
+833,HR Analytics Employee Promotion Data,is_promoted,"OE,MEAN,dup_null,dup_null,dup_null,out_null,LASSO",0.07745542891986462,0.5420024394989014,"(54808, 13)",https
+834,HR Analytics Employee Promotion Data,is_promoted,"OE,MEDIAN,LC,dup_null,dup_null,out_null,OLS",0.07120546043640127,0.891998291015625,"(54808, 13)",https
+835,HR Analytics Employee Promotion Data,is_promoted,"OE,MEDIAN,LC,dup_null,dup_null,out_null,RF_REG",0.057675232621784346,11.112003564834595,"(54808, 13)",https
+836,HR Analytics Employee Promotion Data,is_promoted,"OE,MEDIAN,LC,dup_null,dup_null,out_null,LASSO",0.07277842098868983,1.1579980850219727,"(54808, 13)",https
+837,HR Analytics Employee Promotion Data,is_promoted,"MEAN,OE,ZS,dup_null,out_null,out_null,OLS",0.07448308711587952,0.17411375045776367,"(54808, 13)",https
+838,HR Analytics Employee Promotion Data,is_promoted,"MEAN,OE,ZS,dup_null,out_null,out_null,RF_REG",0.060273237010812365,16.088886260986328,"(54808, 13)",https
+839,HR Analytics Employee Promotion Data,is_promoted,"MF,IQR,OE,ZS,dup_null,out_null,OLS",0.07642473428895086,0.2560005187988281,"(54808, 13)",https
+840,HR Analytics Employee Promotion Data,is_promoted,"MF,IQR,OE,ZS,dup_null,out_null,RF_REG",0.06025299448384555,13.698997735977173,"(54808, 13)",https
+841,HR Analytics Employee Promotion Data_length_of_service,length_of_service,"MF,IQR,OE,ZS,dup_null,out_null,OLS",8.991222266446522,0.3679986000061035,"(54808, 13)",https
+842,HR Analytics Employee Promotion Data_length_of_service,length_of_service,"MF,IQR,OE,ZS,dup_null,out_null,RF_REG",9.499372859466181,19.881998538970947,"(54808, 13)",https
+843,HR Analytics Employee Promotion Data_length_of_service,length_of_service,"MF,IQR,OE,ZS,dup_null,out_null,LASSO",30.834345944281512,0.3540022373199463,"(54808, 13)",https
+844,HR Analytics Employee Promotion Data_length_of_service,length_of_service,"MEAN,OE,ZS,dup_null,out_null,out_null,OLS",10.486116198276529,0.5259988307952881,"(54808, 13)",https
+845,HR Analytics Employee Promotion Data_length_of_service,length_of_service,"MEAN,OE,ZS,dup_null,out_null,out_null,RF_REG",11.218961929757587,21.51199960708618,"(54808, 13)",https
+846,HR Analytics Employee Promotion Data_length_of_service,length_of_service,"MEAN,OE,ZS,dup_null,out_null,out_null,LASSO",34.05723844442794,0.2739989757537842,"(54808, 13)",https
+847,HR Analytics Employee Promotion Data_length_of_service,length_of_service,"OE,MEDIAN,LC,dup_null,dup_null,out_null,RF_REG",18.764306340083927,18.84099769592285,"(54808, 13)",https
+848,HR Analytics Employee Promotion Data_length_of_service,length_of_service,"OE,MEAN,dup_null,dup_null,dup_null,out_null,OLS",10.542823201250663,0.21700310707092285,"(54808, 13)",https
+849,HR Analytics Employee Promotion Data_length_of_service,length_of_service,"OE,MEAN,dup_null,dup_null,dup_null,out_null,RF_REG",11.223087429301222,20.520999670028687,"(54808, 13)",https
+850,HR Analytics Employee Promotion Data_length_of_service,length_of_service,"OE,MEAN,dup_null,dup_null,dup_null,out_null,LASSO",11.28993703783407,0.5770144462585449,"(54808, 13)",https
+851,HR Analytics Employee Promotion Data_award,awards_won?,"OE,MEAN,dup_null,dup_null,dup_null,out_null,OLS",0.0216195371807737,0.09800267219543457,"(54808, 13)",https
+852,HR Analytics Employee Promotion Data_award,awards_won?,"OE,MEAN,dup_null,dup_null,dup_null,out_null,RF_REG",0.022568682722130997,12.19479751586914,"(54808, 13)",https
+853,HR Analytics Employee Promotion Data_award,awards_won?,"OE,MEAN,dup_null,dup_null,dup_null,out_null,LASSO",0.021684860562724523,0.5850090980529785,"(54808, 13)",https
+854,HR Analytics Employee Promotion Data_award,awards_won?,"OE,MEDIAN,LC,dup_null,dup_null,out_null,OLS",0.06501541039186758,0.6659989356994629,"(54808, 13)",https
+855,HR Analytics Employee Promotion Data_award,awards_won?,"MEAN,OE,ZS,dup_null,out_null,out_null,OLS",0.02146967106933038,0.2579996585845947,"(54808, 13)",https
+856,HR Analytics Employee Promotion Data_award,awards_won?,"MEAN,OE,ZS,dup_null,out_null,out_null,RF_REG",0.02270479138883597,14.476637601852417,"(54808, 13)",https
+857,HR Analytics Employee Promotion Data_award,awards_won?,"MEAN,OE,ZS,dup_null,out_null,out_null,LASSO",0.022011647964373337,0.24094581604003906,"(54808, 13)",https
+858,HR Analytics Employee Promotion Data_award,awards_won?,"MF,IQR,OE,ZS,dup_null,out_null,OLS",0.022701439608599695,0.2260880470275879,"(54808, 13)",https
+859,HR Analytics Employee Promotion Data_award,awards_won?,"MF,IQR,OE,ZS,dup_null,out_null,RF_REG",0.023378076770874553,12.337578773498535,"(54808, 13)",https
+860,HR Analytics Employee Promotion Data_award,awards_won?,"MF,IQR,OE,ZS,dup_null,out_null,LASSO",0.023311573954502,0.2759091854095459,"(54808, 13)",https
+861,HR Analytics Employee Promotion Data_avg_training_score,avg_training_score,"MF,IQR,OE,ZS,dup_null,out_null,OLS",159.593326042858,0.17799758911132812,"(54808, 13)",https
+862,HR Analytics Employee Promotion Data_avg_training_score,avg_training_score,"MF,IQR,OE,ZS,dup_null,out_null,RF_REG",16.975823161205234,19.487040519714355,"(54808, 13)",https
+863,HR Analytics Employee Promotion Data_avg_training_score,avg_training_score,"MEAN,OE,ZS,dup_null,out_null,out_null,OLS",159.34176856440436,0.25800657272338867,"(54808, 13)",https
+864,HR Analytics Employee Promotion Data_avg_training_score,avg_training_score,"MEAN,OE,ZS,dup_null,out_null,out_null,RF_REG",16.723627687762104,20.98503017425537,"(54808, 13)",https
+865,HR Analytics Employee Promotion Data_avg_training_score,avg_training_score,"OE,MEDIAN,LC,dup_null,dup_null,out_null,OLS",159.10228352080279,1.2899997234344482,"(54808, 13)",https
+866,HR Analytics Employee Promotion Data_avg_training_score,avg_training_score,"OE,MEDIAN,LC,dup_null,dup_null,out_null,RF_REG",18.490317259624156,17.016003370285034,"(54808, 13)",https
+867,HR Analytics Employee Promotion Data_avg_training_score,avg_training_score,"OE,MEDIAN,LC,dup_null,dup_null,out_null,LASSO",188.49200738178078,0.3849959373474121,"(54808, 13)",https
+868,HR Analytics Employee Promotion Data_avg_training_score,avg_training_score,"OE,MEAN,dup_null,dup_null,dup_null,out_null,OLS",157.2745559435662,0.14000391960144043,"(54808, 13)",https
+869,HR Analytics Employee Promotion Data_avg_training_score,avg_training_score,"OE,MEAN,dup_null,dup_null,dup_null,out_null,RF_REG",17.35928375296479,17.694113731384277,"(54808, 13)",https
+870,HR Analytics Employee Promotion Data_avg_training_score,avg_training_score,"OE,MEAN,dup_null,dup_null,dup_null,out_null,LASSO",174.973932633955,0.3948972225189209,"(54808, 13)",https
+871,IPL_Auction_2022_FullList,Bid,"dup_null,IQR,ZS,dup_null,dup_null,out_null,OLS",0.009839361521882809,0.021999120712280273,"(590, 20)",https
+872,IPL_Auction_2022_FullList,Bid,"dup_null,IQR,ZS,dup_null,dup_null,out_null,RF_REG",0.008,0.07500123977661133,"(590, 20)",https
+873,IPL_Auction_2022_FullList,Bid,"dup_null,IQR,ZS,dup_null,dup_null,out_null,LASSO",0.788278186959636,0.030994415283203125,"(590, 20)",https
+874,IPL_Auction_2022_FullList,Bid,"AD,MM,dup_null,dup_null,dup_null,out_null,OLS",0.16119320465133305,2.119427442550659,"(590, 20)",https
+875,IPL_Auction_2022_FullList,Bid,"AD,MM,dup_null,dup_null,dup_null,out_null,RF_REG",0.0082,0.12100648880004883,"(590, 20)",https
+876,IPL_Auction_2022_FullList,Bid,"AD,MM,dup_null,dup_null,dup_null,out_null,LASSO",0.32875238320502603,0.06698846817016602,"(590, 20)",https
+877,IPL_Auction_2022_FullList,Bid,"IQR,MM,dup_null,dup_null,out_null,out_null,OLS",0.03938185894122618,0.02471923828125,"(590, 20)",https
+878,IPL_Auction_2022_FullList,Bid,"IQR,MM,dup_null,dup_null,out_null,out_null,RF_REG",0.0081,0.07504606246948242,"(590, 20)",https
+879,IPL_Auction_2022_FullList,Bid,"IQR,MM,dup_null,dup_null,out_null,out_null,LASSO",0.2356610412195097,0.028000593185424805,"(590, 20)",https
+880,IPL_Auction_2022_FullList,Bid,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,OLS",0.14086241880486752,0.01300048828125,"(590, 20)",https
+881,IPL_Auction_2022_FullList_Test caps,Test caps,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,OLS",0.559297789271369,0.012998819351196289,"(590, 20)",https
+882,IPL_Auction_2022_FullList_Test caps,Test caps,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,RF_REG",0.42995767465753426,0.07209038734436035,"(590, 20)",https
+883,IPL_Auction_2022_FullList_Test caps,Test caps,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,LASSO",0.51130744885064,0.02299952507019043,"(590, 20)",https
+884,IPL_Auction_2022_FullList_Test caps,Test caps,"IQR,MM,dup_null,dup_null,out_null,out_null,OLS",25.60720871871406,0.022003650665283203,"(590, 20)",https
+885,IPL_Auction_2022_FullList_Test caps,Test caps,"IQR,MM,dup_null,dup_null,out_null,out_null,RF_REG",24.558041866438355,0.07807707786560059,"(590, 20)",https
+886,IPL_Auction_2022_FullList_Test caps,Test caps,"IQR,MM,dup_null,dup_null,out_null,out_null,LASSO",25.849838541661256,0.028922557830810547,"(590, 20)",https
+887,IPL_Auction_2022_FullList_Test caps,Test caps,"AD,MM,dup_null,dup_null,dup_null,out_null,OLS",53.04947455178535,2.264936923980713,"(590, 20)",https
+888,IPL_Auction_2022_FullList_Test caps,Test caps,"dup_null,IQR,ZS,dup_null,dup_null,out_null,OLS",22.85838267986404,0.020003557205200195,"(590, 20)",https
+889,IPL_Auction_2022_FullList_Test caps,Test caps,"dup_null,IQR,ZS,dup_null,dup_null,out_null,RF_REG",23.462715033783788,0.07999634742736816,"(590, 20)",https
+890,IPL_Auction_2022_FullList_Test caps,Test caps,"dup_null,IQR,ZS,dup_null,dup_null,out_null,LASSO",23.523018637040956,0.03000020980834961,"(590, 20)",https
+891,IPL_Auction_2022_FullList_ODI caps,ODI caps,"dup_null,IQR,ZS,dup_null,dup_null,out_null,OLS",14.842943771985373,0.020934104919433594,"(590, 20)",https
+892,IPL_Auction_2022_FullList_ODI caps,ODI caps,"dup_null,IQR,ZS,dup_null,dup_null,out_null,RF_REG",11.301224000000001,0.08690047264099121,"(590, 20)",https
+893,IPL_Auction_2022_FullList_ODI caps,ODI caps,"dup_null,IQR,ZS,dup_null,dup_null,out_null,LASSO",16.156161877429426,0.028003215789794922,"(590, 20)",https
+894,IPL_Auction_2022_FullList_ODI caps,ODI caps,"AD,MM,dup_null,dup_null,dup_null,out_null,LASSO",61.287442389954165,0.10701465606689453,"(590, 20)",https
+895,IPL_Auction_2022_FullList_ODI caps,ODI caps,"IQR,MM,dup_null,dup_null,out_null,out_null,OLS",5.537573205412791,0.036971330642700195,"(590, 20)",https
+896,IPL_Auction_2022_FullList_ODI caps,ODI caps,"IQR,MM,dup_null,dup_null,out_null,out_null,RF_REG",13.672518421052631,0.3930017948150635,"(590, 20)",https
+897,IPL_Auction_2022_FullList_ODI caps,ODI caps,"IQR,MM,dup_null,dup_null,out_null,out_null,LASSO",5.197834076713385,0.08100223541259766,"(590, 20)",https
+898,IPL_Auction_2022_FullList_ODI caps,ODI caps,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,OLS",2.425768645862996,0.016002893447875977,"(590, 20)",https
+899,IPL_Auction_2022_FullList_ODI caps,ODI caps,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,RF_REG",0.14840142857142855,0.08707427978515625,"(590, 20)",https
+900,IPL_Auction_2022_FullList_ODI caps,ODI caps,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,LASSO",1.7068380840479673,0.023926496505737305,"(590, 20)",https
+901,IPL_Auction_2022_FullList_T20 caps,T20 caps,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,OLS",4.469099641235629,0.012993097305297852,"(590, 20)",https
+902,IPL_Auction_2022_FullList_T20 caps,T20 caps,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,RF_REG",5.601754167042044,0.0748906135559082,"(590, 20)",https
+903,IPL_Auction_2022_FullList_T20 caps,T20 caps,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,LASSO",3.8883688282140114,0.025014638900756836,"(590, 20)",https
+904,IPL_Auction_2022_FullList_T20 caps,T20 caps,"IQR,MM,dup_null,dup_null,out_null,out_null,OLS",2.331738817265734,0.019004344940185547,"(590, 20)",https
+905,IPL_Auction_2022_FullList_T20 caps,T20 caps,"IQR,MM,dup_null,dup_null,out_null,out_null,RF_REG",2.417889395555556,0.08191394805908203,"(590, 20)",https
+906,IPL_Auction_2022_FullList_T20 caps,T20 caps,"IQR,MM,dup_null,dup_null,out_null,out_null,LASSO",2.325574642665457,0.02801346778869629,"(590, 20)",https
+907,IPL_Auction_2022_FullList_T20 caps,T20 caps,"AD,MM,dup_null,dup_null,dup_null,out_null,LASSO",71.14049425544393,0.08701658248901367,"(590, 20)",https
+908,IPL_Auction_2022_FullList_T20 caps,T20 caps,"dup_null,IQR,ZS,dup_null,dup_null,out_null,OLS",16.291865678034558,0.02100086212158203,"(590, 20)",https
+909,IPL_Auction_2022_FullList_T20 caps,T20 caps,"dup_null,IQR,ZS,dup_null,dup_null,out_null,RF_REG",15.593289321789321,0.0869302749633789,"(590, 20)",https
+910,IPL_Auction_2022_FullList_T20 caps,T20 caps,"dup_null,IQR,ZS,dup_null,dup_null,out_null,LASSO",18.532600201460195,0.031000614166259766,"(590, 20)",https
+911,IPL_Auction_2022_FullList_IPL,IPL,"dup_null,IQR,ZS,dup_null,dup_null,out_null,OLS",62.79010181582043,0.021076679229736328,"(590, 20)",https
+912,IPL_Auction_2022_FullList_IPL,IPL,"dup_null,IQR,ZS,dup_null,dup_null,out_null,RF_REG",81.47650628474162,0.08601903915405273,"(590, 20)",https
+913,IPL_Auction_2022_FullList_IPL,IPL,"dup_null,IQR,ZS,dup_null,dup_null,out_null,LASSO",69.98255622034401,0.02797985076904297,"(590, 20)",https
+914,IPL_Auction_2022_FullList_IPL,IPL,"AD,MM,dup_null,dup_null,dup_null,out_null,OLS",148.61496958755038,2.2759196758270264,"(590, 20)",https
+915,IPL_Auction_2022_FullList_IPL,IPL,"IQR,MM,dup_null,dup_null,out_null,out_null,OLS",32.270362371899644,0.021082639694213867,"(590, 20)",https
+916,IPL_Auction_2022_FullList_IPL,IPL,"IQR,MM,dup_null,dup_null,out_null,out_null,RF_REG",38.48689440572555,0.0899360179901123,"(590, 20)",https
+917,IPL_Auction_2022_FullList_IPL,IPL,"IQR,MM,dup_null,dup_null,out_null,out_null,LASSO",33.9196221687733,0.03408384323120117,"(590, 20)",https
+918,IPL_Auction_2022_FullList_IPL,IPL,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,OLS",61.36450435533348,0.013982772827148438,"(590, 20)",https
+919,IPL_Auction_2022_FullList_IPL,IPL,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,RF_REG",70.06788725423623,0.08106732368469238,"(590, 20)",https
+920,IPL_Auction_2022_FullList_IPL,IPL,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,LASSO",77.19595718950283,0.02199578285217285,"(590, 20)",https
+921,IRIS,species,"ZS,dup_null,dup_null,dup_null,dup_null,out_null,OLS",0.03219599984273743,0.009914159774780273,"(150, 5)",https
+922,IRIS,species,"ZS,dup_null,dup_null,dup_null,dup_null,out_null,RF_REG",0.011000000000000023,0.06499981880187988,"(150, 5)",https
+923,IRIS,species,"IQR,MM,dup_null,dup_null,out_null,out_null,OLS",0.05009712110245774,0.015001296997070312,"(150, 5)",https
+924,IRIS,species,"IQR,MM,dup_null,dup_null,out_null,out_null,RF_REG",0.01238333333333334,0.07299566268920898,"(150, 5)",https
+925,IRIS,species,"IQR,MM,dup_null,dup_null,out_null,out_null,LASSO",0.04553033432234411,0.02299976348876953,"(150, 5)",https
+926,IRIS,species,"ED,MM,dup_null,dup_null,dup_null,out_null,OLS",0.03623468618239753,0.011993169784545898,"(150, 5)",https
+927,IRIS,species,"ED,MM,dup_null,dup_null,dup_null,out_null,RF_REG",0.03521666666666667,0.07291817665100098,"(150, 5)",https
+928,IRIS,species,"ED,MM,dup_null,dup_null,dup_null,out_null,LASSO",0.0372389258925421,0.021045207977294922,"(150, 5)",https
+929,IRIS,species,"dup_null,IQR,DS,dup_null,dup_null,out_null,OLS",0.08846113660225768,0.015997886657714844,"(150, 5)",https
+930,IRIS,species,"dup_null,IQR,DS,dup_null,dup_null,out_null,LASSO",0.0791190688308899,0.02700042724609375,"(150, 5)",https
+931,IRIS_sepal_length,sepal_length,"dup_null,IQR,DS,dup_null,dup_null,out_null,OLS",11.635671294304016,0.01900029182434082,"(150, 5)",https
+932,IRIS_sepal_length,sepal_length,"dup_null,IQR,DS,dup_null,dup_null,out_null,RF_REG",14.226451328703707,0.08800911903381348,"(150, 5)",https
+933,IRIS_sepal_length,sepal_length,"dup_null,IQR,DS,dup_null,dup_null,out_null,LASSO",10.535789233326321,0.02406024932861328,"(150, 5)",https
+934,IRIS_sepal_length,sepal_length,"ED,MM,dup_null,dup_null,dup_null,out_null,OLS",12.694717715438461,0.014000177383422852,"(150, 5)",https
+935,IRIS_sepal_length,sepal_length,"ED,MM,dup_null,dup_null,dup_null,out_null,LASSO",15.68161878985828,0.021987199783325195,"(150, 5)",https
+936,IRIS_sepal_length,sepal_length,"IQR,MM,dup_null,dup_null,out_null,out_null,OLS",14.857727199018045,0.015003442764282227,"(150, 5)",https
+937,IRIS_sepal_length,sepal_length,"IQR,MM,dup_null,dup_null,out_null,out_null,RF_REG",19.592924166666663,0.08099651336669922,"(150, 5)",https
+938,IRIS_sepal_length,sepal_length,"IQR,MM,dup_null,dup_null,out_null,out_null,LASSO",11.808257062770162,0.027001142501831055,"(150, 5)",https
+939,IRIS_sepal_length,sepal_length,"ZS,dup_null,dup_null,dup_null,dup_null,out_null,OLS",10.767131011306033,0.009998798370361328,"(150, 5)",https
+940,IRIS_sepal_length,sepal_length,"ZS,dup_null,dup_null,dup_null,dup_null,out_null,RF_REG",8.114449874074074,0.07300186157226562,"(150, 5)",https
+941,IRIS_sepal_width,sepal_width,"ZS,dup_null,dup_null,dup_null,dup_null,out_null,OLS",10.684712974306414,0.009997844696044922,"(150, 5)",https
+942,IRIS_sepal_width,sepal_width,"ZS,dup_null,dup_null,dup_null,dup_null,out_null,RF_REG",9.940413333333334,0.08503842353820801,"(150, 5)",https
+943,IRIS_sepal_width,sepal_width,"IQR,MM,dup_null,dup_null,out_null,out_null,OLS",11.758067340423121,0.01711130142211914,"(150, 5)",https
+944,IRIS_sepal_width,sepal_width,"IQR,MM,dup_null,dup_null,out_null,out_null,RF_REG",14.02515601851852,0.08789277076721191,"(150, 5)",https
+945,IRIS_sepal_width,sepal_width,"ED,MM,dup_null,dup_null,dup_null,out_null,OLS",16.61078307439633,0.012928009033203125,"(150, 5)",https
+946,IRIS_sepal_width,sepal_width,"ED,MM,dup_null,dup_null,dup_null,out_null,RF_REG",9.62898,0.07803082466125488,"(150, 5)",https
+947,IRIS_sepal_width,sepal_width,"ED,MM,dup_null,dup_null,dup_null,out_null,LASSO",47.1858263453041,0.021954774856567383,"(150, 5)",https
+948,IRIS_sepal_width,sepal_width,"dup_null,IQR,DS,dup_null,dup_null,out_null,OLS",13.855208690598818,0.01802206039428711,"(150, 5)",https
+949,IRIS_sepal_width,sepal_width,"dup_null,IQR,DS,dup_null,dup_null,out_null,RF_REG",15.875618300000001,0.08189868927001953,"(150, 5)",https
+950,IRIS_sepal_width,sepal_width,"dup_null,IQR,DS,dup_null,dup_null,out_null,LASSO",50.9446288028124,0.024001121520996094,"(150, 5)",https
+951,IRIS_petal_length,petal_length,"dup_null,IQR,DS,dup_null,dup_null,out_null,OLS",15.251757189974219,0.016098976135253906,"(150, 5)",https
+952,IRIS_petal_length,petal_length,"dup_null,IQR,DS,dup_null,dup_null,out_null,RF_REG",11.44868428888889,0.08091616630554199,"(150, 5)",https
+953,IRIS_petal_length,petal_length,"dup_null,IQR,DS,dup_null,dup_null,out_null,LASSO",15.564716088488293,0.024059057235717773,"(150, 5)",https
+954,IRIS_petal_length,petal_length,"ED,MM,dup_null,dup_null,dup_null,out_null,OLS",9.309719707420985,0.011978387832641602,"(150, 5)",https
+955,IRIS_petal_length,petal_length,"ED,MM,dup_null,dup_null,dup_null,out_null,RF_REG",10.45444827586207,0.07602691650390625,"(150, 5)",https
+956,IRIS_petal_length,petal_length,"ED,MM,dup_null,dup_null,dup_null,out_null,LASSO",9.381244502991919,0.019901037216186523,"(150, 5)",https
+957,IRIS_petal_length,petal_length,"IQR,MM,dup_null,dup_null,out_null,out_null,OLS",12.498303572804398,0.015996932983398438,"(150, 5)",https
+958,IRIS_petal_length,petal_length,"IQR,MM,dup_null,dup_null,out_null,out_null,LASSO",12.224425344874819,0.026915788650512695,"(150, 5)",https
+959,IRIS_petal_length,petal_length,"ZS,dup_null,dup_null,dup_null,dup_null,out_null,OLS",14.196630314719226,0.008985280990600586,"(150, 5)",https
+960,IRIS_petal_length,petal_length,"ZS,dup_null,dup_null,dup_null,dup_null,out_null,RF_REG",11.711482082407406,0.07599639892578125,"(150, 5)",https
+961,IRIS_petal_width,petal_width,"ZS,dup_null,dup_null,dup_null,dup_null,out_null,OLS",4.750109810961394,0.011005878448486328,"(150, 5)",https
+962,IRIS_petal_width,petal_width,"ZS,dup_null,dup_null,dup_null,dup_null,out_null,RF_REG",6.679931193518518,0.08711433410644531,"(150, 5)",https
+963,IRIS_petal_width,petal_width,"IQR,MM,dup_null,dup_null,out_null,out_null,OLS",4.923459959126254,0.017000675201416016,"(150, 5)",https
+964,IRIS_petal_width,petal_width,"IQR,MM,dup_null,dup_null,out_null,out_null,RF_REG",4.0351447425925935,0.12900042533874512,"(150, 5)",https
+965,IRIS_petal_width,petal_width,"IQR,MM,dup_null,dup_null,out_null,out_null,LASSO",5.449520052103514,0.029999732971191406,"(150, 5)",https
+966,IRIS_petal_width,petal_width,"ED,MM,dup_null,dup_null,dup_null,out_null,OLS",7.991136700811793,0.012994050979614258,"(150, 5)",https
+967,IRIS_petal_width,petal_width,"ED,MM,dup_null,dup_null,dup_null,out_null,RF_REG",5.208966666666667,0.07599997520446777,"(150, 5)",https
+968,IRIS_petal_width,petal_width,"ED,MM,dup_null,dup_null,dup_null,out_null,LASSO",6.105042201030266,0.021002531051635742,"(150, 5)",https
+969,IRIS_petal_width,petal_width,"dup_null,IQR,DS,dup_null,dup_null,out_null,OLS",7.540842721045569,0.0169217586517334,"(150, 5)",https
+970,IRIS_petal_width,petal_width,"dup_null,IQR,DS,dup_null,dup_null,out_null,LASSO",6.161085227381891,0.022941112518310547,"(150, 5)",https
+971,microbes,microorganisms,"AD,IQR,DS,dup_null,dup_null,out_null,OLS",6.358846397951034,2.7019355297088623,"(30527, 26)",https
+972,microbes,microorganisms,"AD,IQR,DS,dup_null,dup_null,out_null,RF_REG",1.1475421798365122,5.799022436141968,"(30527, 26)",https
+973,microbes,microorganisms,"LOF,DS,dup_null,dup_null,dup_null,out_null,OLS",6.166148553334713,2.4600017070770264,"(30527, 26)",https
+974,microbes,microorganisms,"LOF,DS,dup_null,dup_null,dup_null,out_null,RF_REG",1.105137714663144,9.92448902130127,"(30527, 26)",https
+975,microbes,microorganisms,"LOF,DS,dup_null,dup_null,dup_null,out_null,LASSO",6.190709657969666,5.917513132095337,"(30527, 26)",https
+976,microbes,microorganisms,"OE,MM,dup_null,dup_null,out_null,out_null,OLS",6.24207833327076,0.10092878341674805,"(30527, 26)",https
+977,microbes,microorganisms,"OE,MM,dup_null,dup_null,out_null,out_null,RF_REG",0.025720602685882735,8.237507820129395,"(30527, 26)",https
+978,microbes,microorganisms,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,OLS",6.057018892413092,0.12703800201416016,"(30527, 26)",https
+979,microbes,microorganisms,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,RF_REG",0.005804688631426501,8.697573900222778,"(30527, 26)",https
+980,microbes,microorganisms,"IQR,dup_null,dup_null,dup_null,dup_null,out_null,LASSO",6.153556342579511,3.6943626403808594,"(30527, 26)",https
+981,milknew,Grade,"MM,dup_null,dup_null,dup_null,dup_null,out_null,OLS",0.36272053343582683,0.01298379898071289,"(1059, 8)",https
+982,milknew,Grade,"MM,dup_null,dup_null,dup_null,dup_null,out_null,RF_REG",0.0010910377358490568,0.08200883865356445,"(1059, 8)",https
+983,milknew,Grade,"MM,dup_null,dup_null,dup_null,dup_null,out_null,LASSO",0.6286253105976607,0.02098870277404785,"(1059, 8)",https
+984,milknew,Grade,"IQR,dup_null,dup_null,dup_null,out_null,out_null,OLS",0.39663449287128777,0.014003753662109375,"(1059, 8)",https
+985,milknew,Grade,"IQR,dup_null,dup_null,dup_null,out_null,out_null,RF_REG",0.00096689655172413796,0.07709884643554688,"(1059, 8)",https
+986,milknew,Grade,"IQR,dup_null,dup_null,dup_null,out_null,out_null,LASSO",0.4569668316232191,0.02591395378112793,"(1059, 8)",https
+987,milknew,Grade,"LOF,DS,dup_null,dup_null,dup_null,out_null,OLS",0.521932901014834,0.01991438865661621,"(1059, 8)",https
+988,milknew,Grade,"LOF,DS,dup_null,dup_null,dup_null,out_null,RF_REG",0.3202102564102564,0.07325530052185059,"(1059, 8)",https
+989,milknew,Grade,"AD,IQR,DS,dup_null,dup_null,out_null,OLS",0.3524660143164741,1.764000654220581,"(1059, 8)",https
+990,milknew,Grade,"AD,IQR,DS,dup_null,dup_null,out_null,RF_REG",0.006883673469387755,0.12898564338684082,"(1059, 8)",https
+991,wine,quality,"AD,IQR,DS,dup_null,dup_null,out_null,OLS",0.18579605745199634,2.1399154663085938,"(1599, 12)",https
+992,wine,quality,"AD,IQR,DS,dup_null,dup_null,out_null,RF_REG",0.16619891696750905,0.3710005283355713,"(1599, 12)",https
+993,wine,quality,"AD,IQR,DS,dup_null,dup_null,out_null,LASSO",0.18741601635334237,0.09501504898071289,"(1599, 12)",https
+994,wine,quality,"LOF,dup_null,dup_null,dup_null,dup_null,out_null,OLS",0.18358225120306484,0.019017696380615234,"(1599, 12)",https
+995,wine,quality,"LOF,dup_null,dup_null,dup_null,dup_null,out_null,RF_REG",0.14730222222222222,0.5979821681976318,"(1599, 12)",https
+996,wine,quality,"LOF,dup_null,dup_null,dup_null,dup_null,out_null,LASSO",0.18539008200751922,0.04700064659118652,"(1599, 12)",https
+997,wine,quality,"ZS,IQR,dup_null,dup_null,out_null,out_null,OLS",0.16275497062910974,0.031999826431274414,"(1599, 12)",https
+998,wine,quality,"ZS,IQR,dup_null,dup_null,out_null,out_null,RF_REG",0.14925033333333335,0.6189844608306885,"(1599, 12)",https
+999,wine,quality,"ZS,dup_null,dup_null,dup_null,dup_null,out_null,OLS",0.17084176763720071,0.019003868103027344,"(1599, 12)",https
+1000,wine,quality,"ZS,dup_null,dup_null,dup_null,dup_null,out_null,RF_REG",0.13953125,0.3550755977630615,"(1599, 12)",https

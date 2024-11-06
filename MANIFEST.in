@@ -1,0 +1,2 @@
+recursive-include autodatapre/datasets *.csv
+recursive-include autodatapre/Pipeline_Generation/Estimation_Model *.pickle
