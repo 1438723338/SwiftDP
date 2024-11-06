@@ -1,34 +1,34 @@
 # 
 
-Automated System for Efficient Generation of Data Preparation Pipeline
+SwiftDP: An Efficient Framework for Automated Data Preparation Pipeline Generation
 
 
 #### Quick Start
 
-1.  Before running the code, please make sure your Python version is 3.7.16. 
+1.  Before running the code, please make sure your Python version is 3.8.18. 
 2.  pip install autodatapre
 
 #### Run Example
 
-1. AutoDP.testFunction() provide two fast examples, Showcased examples from our paper.
+1. demo.ipynb provides two quick examples that correspond to the Demonstration Scenarios in the paper.
 
-2. We support classification and regression tasks, with specified runtime and default runtime until convergence.
+2. We support classification and regression tasks.
 
 3. Taking classification as an example：
 
-   import autodatapre as AutoDP
+   import autodatapre as SwiftDP
 
-   datasetName = your_dataset_path # e.g. "E:/1.csv"
+   datasetName = your_dataset_path # e.g. "autodatapre/datasets/42493.csv"
 
-   datasetTarget = the_target_column_name # e.g. 'delay'
+   datasetTarget = the_target_column_name # e.g. 'Delay'
 
    runTime = 10
 
-   df = pd.read_csv(datasetName, sep=',', encoding='ISO-8859-1')
+   df = pd.read_csv(datasetName, sep = ',', encoding = 'ISO-8859-1')
 
-   detailResult, preparedDataset = AutoDP.Classifier(df, datasetName, datasetTarget, runTime)
+   detailResult, preparedDataset = SwiftDP.Classifier(df, datasetName, datasetTarget, runTime)
 
-   AutoDP.EnhancedFunction(df, preparedDataset, detailResult, taskType="CLA")
+   SwiftDP.EnhancedFunction(df, preparedDataset, detailResult, taskType = "CLA")
 
 4. If runTime is not specified in the Classifier function, run until convergence.
 
